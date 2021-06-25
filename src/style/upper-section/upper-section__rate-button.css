@@ -1,0 +1,367 @@
+.upper-section__rate-button {
+  padding-left: 126px;
+  padding-top: 143px;
+  width: 260px;
+}
+
+.checkbox-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 129px;
+}
+
+.checkbox-buttons__input1 {
+  padding-top: 16.56px;
+}
+
+.checkbox-buttons__input2 {
+  padding-top: 10.56px;
+}
+
+.checkbox-buttons__input3 {
+  padding-top: 10px;
+}
+
+.checkbox-style {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 14px;
+  color: rgba(31, 32, 65, 0.5);
+  font-family: "Montserrat";
+}
+
+.checkbox-style__inp {
+  display: none;
+}
+
+.checkbox-checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  position: relative;
+}
+
+.checkbox-checkmark::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 6.5px;
+  width: 3.5px;
+  height: 5.5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  padding: 2px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  opacity: 0;
+}
+
+.checkbox-checkmark::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 7.5px;
+  width: 3.5px;
+  height: 5.5px;
+  padding: 0 2px 2px 0;
+  background: #FFFFFF;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  opacity: 0;
+}
+
+.checkbox-style__inp:checked + .checkbox-checkmark {
+  border: 1px solid #BC9CFF;
+}
+
+.checkbox-style__inp:checked + .checkbox-checkmark::before {
+  opacity: 1;
+}
+
+.checkbox-style__inp:checked + .checkbox-checkmark::after {
+  opacity: 1;
+}
+
+.checkbox-checkmark-two {
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.radio-buttons {
+  padding-top: 40.88px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.radio-buttons__inputs {
+  padding-top: 15.56px;
+  height: 24px;
+  width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.radio-buttons__style {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.radio-buttons__padding {
+  padding-left: 98px;
+}
+
+.radio-buttons__radio {
+  display: none;
+  position: absolute;
+}
+
+.radio-checkmark {
+  height: 18px;
+  width: 18px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 10px;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.radio-checkmark:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 3px;
+  left: 3px;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  opacity: 0;
+}
+
+.radio-checkmark-snd {
+  padding-left: 28px;
+}
+
+.radio-buttons__radio:checked + .radio-checkmark {
+  border: 1px solid #BC9CFF;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.radio-buttons__radio:checked + .radio-checkmark::before {
+  opacity: 1;
+}
+
+.toggle {
+  padding-top: 37px;
+}
+
+.toggle__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 58px;
+  padding-top: 16px;
+}
+
+.toggle__style {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 14px;
+  color: rgba(31, 32, 65, 0.75);
+  font-family: "Montserrat";
+}
+
+.toggle__checkbox {
+  display: none;
+  position: absolute;
+}
+
+.toggle-checkmark {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  width: 38px;
+  height: 18px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+}
+
+.toggle-checkmark::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+}
+
+.toggle__checkbox:checked + .toggle-checkmark {
+  border: 1px solid #BC9CFF;
+}
+
+.toggle__checkbox:checked + .toggle-checkmark::before {
+  top: 3px;
+  left: 23px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+.toggle-checkmark__second {
+  padding-left: 50px;
+  width: 210px;
+}
+
+.padding-top {
+  padding-top: 14px;
+}
+
+.like-button {
+  padding-top: 40px;
+}
+
+.like-button__inputs {
+  padding-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.like-button__style {
+  color: rgba(31, 32, 65, 0.25);
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+
+.like-button__padding {
+  padding-left: 10px;
+}
+
+.like-button__checkbox {
+  display: none;
+  position: absolute;
+}
+
+.like-button__checkmark {
+  display: block;
+  width: 39.72px;
+  height: 20px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+  position: relative;
+}
+
+.like-button__checkmark::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  height: 8px;
+  width: 10px;
+  background: url("../../pictures/favorite_border.svg");
+}
+
+.like-button__checkmark1 {
+  position: absolute;
+  padding-left: 22px;
+  top: 4px;
+}
+
+.like-button__checkbox:checked + .like-button__checkmark {
+  border: 1px solid #BC9CFF;
+  color: #BC9CFF;
+}
+
+.like-button__checkbox:checked + .like-button__checkmark:before {
+  background: url("../../pictures/favorite-liked.svg");
+}
+
+.rate-button {
+  padding-top: 40px;
+}
+
+.rate-button__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 16px;
+}
+
+.rate-button__inputs input {
+  margin: 0;
+}
+
+.rate-button__padding {
+  padding-left: 20px;
+}
+
+.rate-button__style {
+  overflow: hidden;
+  width: 120px;
+}
+
+.rate-button__style:not(:checked) > input {
+  display: none;
+}
+
+.rate-button__style:not(:checked) > label {
+  width: 20px;
+  height: 19px;
+  margin: 2.5px 2px;
+  float: right;
+  background-image: url("../../pictures/star_border.svg");
+  background-position: center;
+}
+
+.rate-button__style:not(:checked) > label:before {
+  background-image: url("../../pictures/star_border.svg");
+}
+
+.rate-button__style > input:checked ~ label {
+  background-image: url("../../pictures/star.svg");
+}
+
+.rate-button__style:not(:checked) > label:hover,
+.rate-button__style:not(:checked) > label:hover ~ label {
+  background-image: url("../../pictures/star.svg");
+}
+/*# sourceMappingURL=upper-section__rate-button.css.map */

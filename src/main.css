@@ -1,0 +1,10 @@
+@import './style/font.css';
+@import './style/style.css';
+@import './style/upper-section/upper-section.css';
+@import './style/upper-section/upper-section__fields.css';
+@import './style/upper-section/upper-section__rate-button.css';
+@import './style/upper-section/upper-section__buttons-slider.css';
+@import './style/secondary-section/secondary-section.css';
+@import './style/secondary-section/dropdown.css';
+@import './style/secondary-section/dropdown-expanded.css';
+@import './style/secondary-section/checkbox-list.css';

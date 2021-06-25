@@ -1,0 +1,16 @@
+
+
+.checkbox-list{
+    padding-top: 159px;
+}
+.checkbox-list__main{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.checkbox-list__open{
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 10px;
+}
