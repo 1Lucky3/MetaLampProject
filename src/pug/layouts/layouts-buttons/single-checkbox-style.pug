@@ -1,0 +1,10 @@
+//className = "name"
+//discriptionSecondPart if long text
+mixin styleChanges(className,discription,discriptionSecondPart)
+    div(class=className)
+        label.checkbox-style
+            input(type="checkbox", class="checkbox-style__inp")
+            span.checkbox-checkmark
+            span.checkbox-checkmark-two=discription
+                |#[br]#{discriptionSecondPart}
+        

@@ -1,0 +1,22 @@
+
+
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+  body 
+    section.upper-section
+      div.upper-section__fields
+        include ../layouts/layouts-fields/field-default
+        include ../layouts/layouts-fields/field-hoverfocus
+        include ../layouts/layouts-fields/field-dropdown
+        include ../layouts/layouts-fields/field-datepicker
+        include ../layouts/layouts-fields/field-datedropdown
+        include ../layouts/layouts-fields/field-filterdate
+        include ../layouts/layouts-fields/field-subscription
+      div.upper-section__rate-button
+        include ../layouts/layouts-buttons/checkbox-preferences
+      div.upper-section__buttons-slider
+    section.secondary-section
