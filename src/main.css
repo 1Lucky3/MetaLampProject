@@ -10,3 +10,5 @@
 @import './style/secondary-section/dropdown.css';
 @import './style/secondary-section/dropdown-expanded.css';
 @import './style/secondary-section/checkbox-list.css';
+@import './style/secondary-section/checkbox-list-not-expanded.css';
+@import './style/secondary-section/guest-dropdown.css';

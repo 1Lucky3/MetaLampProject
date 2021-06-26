@@ -1,0 +1,16 @@
+include click-me-button-single
+include pay-button-style
+div.click-buttons
+  div.designation-bold buttons
+  div.click-buttons__style
+    div.fill-buttons
+      +clickMeButtonStyle("click-buttons__button1", "click me")
+      +clickMeButtonStyle("click-buttons__button2", "click me")
+    div.empty-buttons
+      +clickMeButtonStyle("click-buttons__button3", "click me")
+      +clickMeButtonStyle("click-buttons__button4", "click me")
+  div.clickme-text
+    span.clickme-text__style1 click me
+    span.clickme-text__style2 click me
+  div.pay-button
+    +payButton("перейти к оплате")

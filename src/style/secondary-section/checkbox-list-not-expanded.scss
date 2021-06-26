@@ -1,13 +1,14 @@
 
 
-.checkbox-list{
-    padding-top: 20px;
+
+.checkbox-list-not-expanded{
+    padding-top: 159px;
 }
-.checkbox-list__default{
+.checkbox-list__default-not-expanded{
     width: 266px;
     height: 44px;
 }
-.checkbox-list__main{
+.checkbox-list__main-not-expanded{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,14 +17,14 @@
     opacity: 0;
     background: white;
 }
-.checkbox-list__info{
+.checkbox-list__info-not-expanded{
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     height: 44px;
 }
-.checkbox-list__expand-more{
+.checkbox-list__expand-more-not-expanded{
     width: 12px;
     height: 8px;
     padding: 18px 16px;
@@ -32,10 +33,10 @@
     position: relative;
     content: url("../../pictures/checkbox-list-expand_more.svg");
 }
-.checkbox-list__open{
+.checkbox-list__open-not-expanded{
     display: flex;
     flex-direction: column;
 }
-.checkbox-list-container{
+.checkbox-list-container-not-expanded{
     padding-top: 10px;
 }

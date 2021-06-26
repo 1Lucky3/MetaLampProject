@@ -1,62 +1,31 @@
 $fontfam: 'Montserrat';
 
 
-.dropdown-expanded {
-  padding-top: 0px;
-}
-.room-info__dropdown-expanded {
-  width: 266px;
-  font-family: $fontfam;
-  font-weight: bold;
-  font-size: 12px;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-}
-.dropdown__info-expanded{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  span{
-    height: 15px;
-    margin-bottom: 1px;
-    box-sizing: content-box;
-  }
-}
-.caption-bold-expanded{
-  color: #1F2041;
-}
-.caption__default-expanded{
-  color: rgba(31, 32, 65, 0.5);
-  font-weight: normal;
-}
-.caption__description-expanded{
+.guest-dropdown__description{
   font-size: 14px;
   font-weight: normal;
-  text-transform: lowercase;
   color: rgba(31, 32, 65, 0.75);
-  z-index: -1;
 }
-.dropdown__main-expanded {
+.guest-dropdown__main {
   height: 44px;
-  width: 264px;
+  width: 320px;
   border: 1px solid rgba(31, 32, 65, 0.25);
   border-radius: 2px 2px 0 0;
   margin: 0;
   padding: 0;
   display: inline-block;
   position: relative;
-
+  font-family: $fontfam;
 }
-.selected-option-expanded {
+.guest-dropdown__selected {
   list-style-type: none;
   height: 32px;
-  width: 249px;
+  width: 305px;
   padding-left: 15px;
   padding-top: 12px;
 }
 
-.expand-more-expanded{
+.guest-dropdown__expand-more{
   width: 12px;
   height: 8px;
   padding: 18px 16px;
@@ -65,11 +34,11 @@ $fontfam: 'Montserrat';
   position: absolute;
   content: url('../../pictures/expand_more.svg');
 }
-.selected-option-expanded ul{
+.guest-dropdown__selected ul{
   opacity: 0;
 }
-.dropdown__open-expanded {
-  height: 107px;
+.guest-dropdown__open {
+  height: 146px;
   width: inherit;
   border: 1px solid rgba(31, 32, 65, 0.25);
   display: flex;
@@ -79,9 +48,10 @@ $fontfam: 'Montserrat';
   padding-left: 15px;
   position: relative;
   border-radius: 0 0 2px 2px;
-  top: 16px;
+  top: 15px;
   right: 16px;
   list-style-type: none;
+  background-color: #fff;
   button{
     top: 7px;
     width: 30px;
@@ -91,10 +61,10 @@ $fontfam: 'Montserrat';
     border-radius: 22px;
   }
 }
-.dropdown__open-expanded li{
+.guest-dropdown__open li{
   height: 32px;
 }
-.dropdown__open__first-expanded{
+.guest-dropdown__first{
   display: flex;
   justify-content: space-between;
   width: 92px;
@@ -102,7 +72,7 @@ $fontfam: 'Montserrat';
   right: 7px;
   top: 7px;
 }
-.dropdown__open__second-expanded{
+.guest-dropdown__second{
   display: flex;
   justify-content: space-between;
   width: 92px;
@@ -110,7 +80,7 @@ $fontfam: 'Montserrat';
   right: 7px;
   position: absolute;
 }
-.dropdown__open__thrid-expanded{
+.guest-dropdown__thrid{
   display: flex;
   justify-content: space-between;
   width: 92px;
@@ -118,17 +88,30 @@ $fontfam: 'Montserrat';
   right: 7px;
   position: absolute;
 }
-.dropdown__open-expanded span{
+.guest-dropdown__fourth{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #BC9CFF;
+  margin-top: 4px;
+}
+.guest-dropdown__open span{
   right: 50px;
   top: 12px;
 }
-.dropdown__open__amount-less-expanded{
+.guest-dropdown__amount-less{
   right: 70px;
 }
-.dropdown__open__amount-number-expanded{
+.guest-dropdown__amount-number{
   display: flex;
   align-items: center;
 }
-.dropdown__open__amount-more-expanded{
+.guest-dropdown__amount-more{
   right: 7px;
+}
+.guest-dropdown__clear{
+
+}
+.guest-dropdown__apply{
+  margin-right: 7px;
 }

@@ -1,5 +1,8 @@
 $fontfam: 'Montserrat';
 
+.room-info{
+  padding-top: 20px;
+}
 .room-info__dropdown {
   width: 266px;
   font-family: $fontfam;
@@ -13,6 +16,8 @@ $fontfam: 'Montserrat';
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 15px;
+  padding-bottom: 5px;
   span{
     height: 15px;
     margin-bottom: 1px;
@@ -21,6 +26,10 @@ $fontfam: 'Montserrat';
 }
 .caption-bold{
   color: #1F2041;
+  font-family: $fontfam;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 .caption__default{
   color: rgba(31, 32, 65, 0.5);
