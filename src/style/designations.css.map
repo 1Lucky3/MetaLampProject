@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,qBAAqB;EAClC,cAAc,EAAE,SAAS;CAC1B;;AACD,AAAA,mBAAmB,CAAC;EAClB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,qBAAqB;EAC5B,WAAW,EAAE,mBAAmB;EAChC,cAAc,EAAE,SAAS;CAC1B;;AACD,AAAA,aAAa,CAAC;EACZ,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,sBAAsB;EAC7B,WAAW,EAAE,mBAAmB;CACjC",
+    "sources": [
+        "designations.scss"
+    ],
+    "names": [],
+    "file": "designations.css"
+}

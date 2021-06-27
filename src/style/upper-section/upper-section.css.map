@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAIA,AAAA,aAAa,CAAC;EACZ,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,SAAS;EACzB,WAAW,EAAE,IAAI;EACjB,WAAW,EAPH,YAAY;CAQrB;;AAED,AAAA,iBAAiB,CAAC;EAChB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,KAAK,EAZS,OAAO;EAarB,WAAW,EAdH,YAAY;EAepB,cAAc,EAAE,SAAS;CAC1B;;AAED,AAAA,YAAY,CAAC;EACX,WAAW,EAnBH,YAAY;EAoBpB,cAAc,EAAE,SAAS;EACzB,KAAK,EAAE,qBAAqB;CAC7B",
-    "sources": [
-        "upper-section.scss"
-    ],
-    "names": [],
-    "file": "upper-section.css"
-}

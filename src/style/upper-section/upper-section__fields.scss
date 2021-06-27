@@ -1,37 +1,9 @@
 
-
-
-.default_text {
-  display: flex;
-  height: 23px;
-  width: 100%;
-  justify-content: space-between;
+.hoverfocus{
+  padding-top: 20px;
 }
-
-.default__span {
-  width: 72px;
-  padding-top: 3px;
-  padding-bottom: 5px;
-}
-
-.default__span1 {
-  padding-bottom: 8px;
-}
-
-
-
-.hoverfocus__text {
-  display: flex;
-  height: 20.44px;
-  justify-content: space-between;
-}
-
-.hoverfocus__span {
-  padding-bottom: 5px;
-}
-
-.hoverfocus__span1 {
-  padding-bottom: 5px;
+.datepicker{
+  padding-top: 22px;
 }
 
 .dropdown {

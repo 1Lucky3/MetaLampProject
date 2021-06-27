@@ -1,0 +1,27 @@
+.field-dropdown{
+  height: 42px;
+  width: 318px;
+  margin:0;
+  padding: 0px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+}
+.field-dropdown__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.field-dropdown__sometext{
+  padding-left: 15px;
+  padding-top: 12px;
+}
+.field-dropdown__exp {
+  width: 12px;
+  height: 8px;
+  padding: 18px 16px;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  content: url('../../pictures/expand_more.svg');
+}

@@ -1,0 +1,16 @@
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 23px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head__text {
+  width: 160px;
+  height: 15px;
+}
+/*# sourceMappingURL=heads.css.map */

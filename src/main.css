@@ -1,7 +1,9 @@
 @import './style/font.css';
+@import './style/secondary-section/field-dropdown.css';
+@import './style/designations.css';
 @import './style/style.css';
+@import './style/upper-section/heads.css';
 @import './style/upper-section/text-field.css';
-@import './style/upper-section/upper-section.css';
 @import './style/upper-section/upper-section__fields.css';
 @import './style/upper-section/upper-section__rate-button.css';
 @import './style/upper-section/upper-section__buttons-slider.css';
