@@ -1,0 +1,15 @@
+.text-field__style{
+  height: 44px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  width: 320px;
+  border-radius: 4px;
+  padding: 0 15px 0 15px;
+  color: rgba(31, 32, 65, 0.75);
+}
+.text-field__style::placeholder{
+  color: rgba(31, 32, 65, 0.251);
+}
+.text-field__style:focus{
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  outline: none;
+}

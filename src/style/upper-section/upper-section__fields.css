@@ -1,43 +1,3 @@
-.upper-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.upper-section__fields {
-  padding-top: 140px;
-  padding-left: 140px;
-  width: 320px;
-}
-
-.default {
-  height: 67px;
-}
-
-.default input {
-  border: 1px solid rgba(31, 32, 65, 0.25);
-}
-
-.default input::-webkit-input-placeholder {
-  color: #1f204140;
-}
-
-.default input:-ms-input-placeholder {
-  color: #1f204140;
-}
-
-.default input::-ms-input-placeholder {
-  color: #1f204140;
-}
-
-.default input::placeholder {
-  color: #1f204140;
-}
-
 .default_text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,31 +17,6 @@
 
 .default__span1 {
   padding-bottom: 8px;
-}
-
-.hoverfocus {
-  padding-top: 20px;
-  height: 64.44px;
-}
-
-.hoverfocus input {
-  border: 1px solid rgba(31, 32, 65, 0.5);
-}
-
-.hoverfocus input::-webkit-input-placeholder {
-  color: rgba(31, 33, 65, 0.75);
-}
-
-.hoverfocus input:-ms-input-placeholder {
-  color: rgba(31, 33, 65, 0.75);
-}
-
-.hoverfocus input::-ms-input-placeholder {
-  color: rgba(31, 33, 65, 0.75);
-}
-
-.hoverfocus input::placeholder {
-  color: rgba(31, 33, 65, 0.75);
 }
 
 .hoverfocus__text {
@@ -139,31 +74,6 @@
 
 .dropdown__span {
   padding-bottom: 5px;
-}
-
-.datepicker {
-  height: 67px;
-  padding-top: 19.56px;
-}
-
-.datepicker input {
-  border: 1px solid rgba(31, 32, 65, 0.25);
-}
-
-.datepicker input::-webkit-input-placeholder {
-  color: rgba(31, 32, 65, 0.25);
-}
-
-.datepicker input:-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.25);
-}
-
-.datepicker input::-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.25);
-}
-
-.datepicker input::placeholder {
-  color: rgba(31, 32, 65, 0.25);
 }
 
 .datepicker__text {

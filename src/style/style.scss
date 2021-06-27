@@ -1,12 +1,51 @@
-
-
 $fontfam: 'Montserrat';
 
 body {
   margin: 0;
   padding: 0;
   width: 1440px;
+  height: 1853px;
 }
 
+.header-icon {
+  height: 78px;
+}
 
+.header-icon__icon {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border: 3px solid rgba(31, 32, 65, 0.25);
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+}
 
+.header-icon__icon::before {
+  content: url(../pictures/Vector2.svg);
+  position: absolute;
+  top: 18px;
+  left: 11px;
+}
+
+.header-icon__icon::after {
+  content: url(../pictures/Vector-1.svg);
+  position: absolute;
+  top: 12px;
+  left: 25px;
+}
+.upper-section {
+  display: flex;
+  flex-direction: row;
+}
+.upper-section__fields {
+  padding-top: 62px;
+  padding-left: 140px;
+  width: 320px;
+}
+.footer-section {
+  padding-top: 226px;
+  padding-left: 140px;
+  display: flex;
+  flex-direction: row;
+}

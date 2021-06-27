@@ -8,10 +8,19 @@
 .secondary-section__left-dropdowns {
   width: 266px;
 }
-.secondary-section__middle-dropdowns{
+.secondary-section__middle{
   padding-left: 181px;
   display: flex;
+  flex-direction: column;
+}
+.secondary-section__middle-dropdowns{
+  display: flex;
   flex-direction: row;
+}
+.secondary-section__middle-others{
+  display: flex;
+  flex-direction: row;
+  padding-top: 240px;
 }
 .guest-dropdown__container1{
   width: 320px;
@@ -19,4 +28,10 @@
 .guest-dropdown__container2{
   width: 320px;
   padding-left: 72px;
+}
+.bullet-list__container{
+  padding-left: 126px;
+}
+.footer-section__right-container{
+  padding-left: 156px;
 }

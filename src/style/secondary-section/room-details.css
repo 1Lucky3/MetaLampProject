@@ -1,0 +1,67 @@
+.room-details__wrapper {
+  width: 291px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.room-details__rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 291px;
+}
+
+.room-details__icon-row1 {
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  margin: 4px;
+  background-image: url(../../pictures/insert_emoticon.svg);
+}
+
+.room-details__icon-row2 {
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  margin: 4px;
+  background-image: url(../../pictures/location_city.svg);
+}
+
+.room-details__row-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: Montserrat;
+  color: rgba(31, 32, 65, 0.75);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.room-details__text {
+  font-weight: bold;
+}
+
+.room-details__hr {
+  width: 280px;
+  height: 1px;
+  margin: 20px 0;
+  background: rgba(31, 32, 65, 0.1);
+  border: 0;
+}
+/*# sourceMappingURL=room-details.css.map */

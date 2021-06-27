@@ -23,23 +23,3 @@ $colorLeftSpan: #1F2041;
   color: rgba(31, 32, 65, 0.5);
 }
 
-.fields {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-
-  input {
-    height: 44px;
-    border-radius: 4px;
-    padding: 0;
-    width: 100%;
-    background: #FFFFFF;
-    box-sizing: border-box;
-  }
-
-  input::placeholder {
-    font-size: 14px;
-    text-indent: 15px;
-    font-family: $fontfam;
-  }
-}

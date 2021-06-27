@@ -1,6 +1,6 @@
 .upper-section__rate-button {
   padding-left: 126px;
-  padding-top: 143px;
+  padding-top: 62px;
   width: 260px;
 }
 
@@ -260,6 +260,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  width: 90px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .like-button__style {

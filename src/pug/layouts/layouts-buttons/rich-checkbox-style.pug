@@ -1,0 +1,9 @@
+mixin richCheckbox(divClassName,boldText,underText,underTextNextPart)
+  div(class=divClassName)
+        label.checkbox-style
+            input(type="checkbox", class="checkbox-style__inp")
+            span.checkbox-checkmark
+            div.rich-checkbox__span-container
+              span.rich-checkbox__checkmark-two #{boldText}
+              span.rich-checkbox__under-text #{underText}
+                |#[br]#{underTextNextPart}

@@ -7,6 +7,8 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Document
   body 
+    header.header-icon
+      .header-icon__icon
     section.upper-section
       div.upper-section__fields
         include ../layouts/layouts-fields/field-default
@@ -30,5 +32,17 @@ html(lang="en")
       div.secondary-section__left-dropdowns
         include ../layouts/layouts-dropdowns/room-info-dropdown-block
         include ../layouts/layouts-dropdowns/conveniences-checkbox-dropdown-block
-      div.secondary-section__middle-dropdowns
-        include ../layouts/layouts-dropdowns/guest-dropdown-block
+      div.secondary-section__middle
+        div.secondary-section__middle-dropdowns
+          include ../layouts/layouts-dropdowns/guest-dropdown-block
+        div.secondary-section__middle-others
+          div.rich-checkbox__container
+            include ../layouts/layouts-buttons/rich-checkbox
+          div.bullet-list__container
+            include ../layouts/layouts-dropdowns/bullet-list
+    section.footer-section
+      .footer-section__left-container
+        include ../layouts/layouts-dropdowns/room-details
+      .footer-section__right-container
+        include ../layouts/comment-block
+      

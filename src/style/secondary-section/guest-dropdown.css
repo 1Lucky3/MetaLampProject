@@ -1,3 +1,7 @@
+.guest-dropdown__info {
+  padding-bottom: 5px;
+}
+
 .guest-dropdown__description {
   font-size: 14px;
   font-weight: normal;

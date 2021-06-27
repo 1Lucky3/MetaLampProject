@@ -18,49 +18,4 @@
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.5);
 }
-
-.fields {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-}
-
-.fields input {
-  height: 44px;
-  border-radius: 4px;
-  padding: 0;
-  width: 100%;
-  background: #FFFFFF;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.fields input::-webkit-input-placeholder {
-  font-size: 14px;
-  text-indent: 15px;
-  font-family: "Montserrat";
-}
-
-.fields input:-ms-input-placeholder {
-  font-size: 14px;
-  text-indent: 15px;
-  font-family: "Montserrat";
-}
-
-.fields input::-ms-input-placeholder {
-  font-size: 14px;
-  text-indent: 15px;
-  font-family: "Montserrat";
-}
-
-.fields input::placeholder {
-  font-size: 14px;
-  text-indent: 15px;
-  font-family: "Montserrat";
-}
 /*# sourceMappingURL=upper-section.css.map */

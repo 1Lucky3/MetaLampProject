@@ -1,155 +1,145 @@
-.upper-section{
-    display: flex;
-    flex-direction: row;
+
+
+
+.default_text {
+  display: flex;
+  height: 23px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.default__span {
+  width: 72px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+.default__span1 {
+  padding-bottom: 8px;
+}
+
+
+
+.hoverfocus__text {
+  display: flex;
+  height: 20.44px;
+  justify-content: space-between;
+}
+
+.hoverfocus__span {
+  padding-bottom: 5px;
+}
+
+.hoverfocus__span1 {
+  padding-bottom: 5px;
+}
+
+.dropdown {
+  height: 64.44px;
+  padding-top: 19.56px;
+
+  input {
+    border: 1px solid rgba(31, 32, 65, 0.25);
   }
-  .upper-section__fields{
-    padding-top: 140px;
-    padding-left: 140px;
-    width: 320px;
+
+  input::placeholder {
+    color: rgba(31, 32, 65, 0.75);
   }
-  .default{
-    height: 67px;
-    input{
-      border: 1px solid rgba(31, 32, 65, 0.25);
-    }
-    input::placeholder{
-      color: #1f204140;
-    }
+}
+
+.dropdown__text {
+  height: 20.44px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.dropdown__span {
+  padding-bottom: 5px;
+}
+
+
+.datepicker__text {
+  height: 23px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.datepicker__span {
+  padding-bottom: 5px;
+}
+
+.datedropdown {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.datedropdown__input {
+  width: 150px;
+  height: 65px;
+
+  input {
+    border: 1px solid rgba(31, 32, 65, 0.25);
   }
-  .default_text{
-    display: flex;
-    height: 23px;
-    width: 100%;
-    justify-content: space-between;
+
+  input::placeholder {
+    color: rgba(31, 32, 65, 0.75);
   }
-  .default__span{
-    width: 72px;
-    padding-top: 3px;
-    padding-bottom: 5px;
+}
+
+.datedropdown__text {
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.datedropdown__span {
+  padding-bottom: 5px;
+}
+
+.filterdate {
+  padding-top: 40.56px;
+  height: 65px;
+
+  input {
+    border: 1px solid rgba(31, 32, 65, 0.25);
   }
-  .default__span1{
-    padding-bottom: 8px;
+
+  input::placeholder {
+    color: rgba(31, 32, 65, 0.75);
   }
-  
-  .hoverfocus{
-    padding-top: 20px;
-    height: 64.44px;
-    input{
-      border: 1px solid rgba(31, 32, 65, 0.5);
-    }
-    input::placeholder{
-      color: rgba(31, 33, 65, 0.75);
-    }
+}
+
+.filterdate__text {
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterdate__span {
+  padding-bottom: 5px;
+}
+
+.subscription {
+  height: 64px;
+  padding-top: 41px;
+
+  input {
+    border: 1px solid rgba(31, 32, 65, 0.25);
   }
-  .hoverfocus__text{
-    display: flex;
-    height: 20.44px;
-    justify-content: space-between;
+
+  input::placeholder {
+    color: rgba(31, 32, 65, 0.25);
   }
-  .hoverfocus__span{
-    padding-bottom: 5px;
-  }
-  .hoverfocus__span1{
-    padding-bottom: 5px;
-  }
-  
-  .dropdown{
-    height: 64.44px;
-    padding-top: 19.56px;
-    input{
-      border: 1px solid rgba(31, 32, 65, 0.25);
-    }
-    input::placeholder{
-      color: rgba(31, 32, 65, 0.75);
-    }
-  }
-  .dropdown__text{
-    height: 20.44px;
-    justify-content: space-between;
-    display: flex;
-  }
-  .dropdown__span{
-    padding-bottom: 5px;
-  }
-  
-  .datepicker{
-    height: 67px;
-    padding-top: 19.56px;
-    input{
-      border: 1px solid rgba(31, 32, 65, 0.25);
-    }
-    input::placeholder{
-      color: rgba(31, 32, 65, 0.25);
-    }
-  }
-  .datepicker__text{
-    height: 23px;
-    justify-content: space-between;
-    display: flex;
-  }
-  .datepicker__span{
-    padding-bottom: 5px;
-  }
-  
-  .datedropdown{
-    padding-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .datedropdown__input{
-    width: 150px;
-    height: 65px;
-    input{
-      border: 1px solid rgba(31, 32, 65, 0.25);
-    }
-    input::placeholder{
-      color: rgba(31, 32, 65, 0.75);
-    }
-  }
-  .datedropdown__text{
-    height: 21px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .datedropdown__span{
-    padding-bottom: 5px;
-  }
-  
-  .filterdate{
-    padding-top: 40.56px;
-    height: 65px;
-    input{
-      border: 1px solid rgba(31, 32, 65, 0.25);
-    }
-    input::placeholder{
-      color: rgba(31, 32, 65, 0.75);
-    }
-  }
-  .filterdate__text{
-    height: 21px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .filterdate__span{
-    padding-bottom: 5px;
-  }
-  
-  .subscription{
-    height: 64px;
-    padding-top: 41px;
-    input{
-      border: 1px solid rgba(31, 32, 65, 0.25);
-    }
-    input::placeholder{
-      color: rgba(31, 32, 65, 0.25);
-    }
-  }
-  .subscription__text{
-    height: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .subscription__span{
-    padding-bottom: 5px;
-  }
+}
+
+.subscription__text {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscription__span {
+  padding-bottom: 5px;
+}

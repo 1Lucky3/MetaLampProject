@@ -253,5 +253,13 @@ guestDropdownApply.addEventListener('click', function(e){
     sum = Number(amountAdults)+Number(amountChildens)+Number(amountBabies);
     $('.guest-dropdown__guest-number').html(sum);
     $('.guest-dropdown__guest-word').html(' гостей');
+    $(".guest-dropdown__selected ul").css({
+      'opacity' : '0',
+      'border' : '1px solid rgba(31, 32, 65, 0.25)',
+      'border-top' : 'none'
+    });
+    $(".guest-dropdown__main").css({
+      'border' : '1px solid rgba(31, 32, 65, 0.25)'
+    });
   }  
 })
