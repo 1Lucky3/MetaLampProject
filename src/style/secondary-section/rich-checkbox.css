@@ -4,6 +4,7 @@
 
 .rich-checkbox__input1 {
   width: 266px;
+  margin-top: 12px;
 }
 
 .rich-checkbox__input2 {
@@ -28,6 +29,7 @@
   font-size: 14px;
   color: rgba(31, 32, 65, 0.75);
   padding-bottom: 5px;
+  font-family: 'MontserratExtraBold';
 }
 
 .rich-checkbox__under-text {

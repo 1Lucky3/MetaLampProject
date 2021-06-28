@@ -1,12 +1,7 @@
-div.toggle
-  div.designation-bold Toggle
-  // это сам тогл, вынести в отдельный файл
-  div.toggle__inputs
-    label.toggle__style
-      input(type="checkbox", class="toggle__checkbox")
-      span.toggle-checkmark
-        span.toggle-checkmark__second Получать спецпредложения
-    label.toggle__style.padding-top
-      input(type="checkbox", class="toggle__checkbox")
-      span.toggle-checkmark
-        span.toggle-checkmark__second Получать спецпредложения
+include special-offer__template
+
+div.bold-designation Toggle
+// это сам тогл, вынести в отдельный файл
++toggleTemplate("Получать спецпредложения")
++toggleTemplate("Получать спецпредложения")
+    

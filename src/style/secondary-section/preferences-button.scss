@@ -1,0 +1,71 @@
+.preferences-button__input1 {
+  padding-top: 11.56px;
+}
+
+.preferences-button__input2{
+  padding-top: 10.56px;
+}
+
+.preferences-button__input3{
+  padding-top: 10px;
+}
+
+.preferences-button {
+  display: inline-flex;
+}
+
+.preferences-button__inp {
+  display: none;
+}
+
+.preferences-button__checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  position: relative;
+}
+
+.preferences-button__checkmark::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 6.5px;
+  width: 3.5px;
+  height: 5.5px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  padding: 2px;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
+.preferences-button__checkmark::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 7.5px;
+  width: 3.5px;
+  height: 5.5px;
+  padding: 0 2px 2px 0;
+  background: #FFFFFF;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
+.preferences-button__inp:checked+.preferences-button__checkmark {
+  border: 1px solid #BC9CFF;
+}
+
+.preferences-button__inp:checked+.preferences-button__checkmark::before {
+  opacity: 1;
+}
+
+.preferences-button__inp:checked+.preferences-button__checkmark::after {
+  opacity: 1;
+}
+
+.preferences-button__checkmark-two {
+  padding-left: 10px;
+  padding-top: 2px;
+}

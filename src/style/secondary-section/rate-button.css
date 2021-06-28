@@ -1,0 +1,50 @@
+.rate-button__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 16px;
+}
+
+.rate-button__inputs input {
+  margin: 0;
+}
+
+.rate-button__padding {
+  padding-left: 20px;
+}
+
+.rate-button__style {
+  overflow: hidden;
+  width: 120px;
+}
+
+.rate-button__style:not(:checked) > input {
+  display: none;
+}
+
+.rate-button__style:not(:checked) > label {
+  width: 20px;
+  height: 19px;
+  margin: 2.5px 2px;
+  float: right;
+  background-image: url("../../pictures/star_border.svg");
+  background-position: center;
+}
+
+.rate-button__style:not(:checked) > label:before {
+  background-image: url("../../pictures/star_border.svg");
+}
+
+.rate-button__style > input:checked ~ label {
+  background-image: url("../../pictures/star.svg");
+}
+
+.rate-button__style:not(:checked) > label:hover,
+.rate-button__style:not(:checked) > label:hover ~ label {
+  background-image: url("../../pictures/star.svg");
+}
+/*# sourceMappingURL=rate-button.css.map */

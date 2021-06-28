@@ -2,9 +2,9 @@
 //discriptionSecondPart if long text
 mixin styleChanges(className,discription,discriptionSecondPart)
     div(class=className)
-        label.checkbox-style
-            input(type="checkbox", class="checkbox-style__inp")
-            span.checkbox-checkmark
-            span.checkbox-checkmark-two=discription
+        label.preferences-button
+            input(type="checkbox", class="preferences-button__inp")
+            span.preferences-button__checkmark
+            span.default-text-05.preferences-button__checkmark-two=discription
                 |#[br]#{discriptionSecondPart}
         

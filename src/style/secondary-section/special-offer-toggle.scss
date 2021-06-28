@@ -1,0 +1,52 @@
+.special-offer__toggle {
+  display: flex;
+  flex-direction: column;
+  padding-top: 11px;
+}
+
+.special-offer__style {
+  display: inline-flex;
+  font-size: 14px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.special-offer__checkbox {
+  display: none;
+  position: absolute;
+}
+
+.special-offer__checkmark {
+  display: grid;
+  flex-direction: row;
+  position: relative;
+  width: 38px;
+  height: 18px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+}
+
+.special-offer__checkmark::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+}
+
+.special-offer__checkbox:checked+.special-offer__checkmark {
+  border: 1px solid #BC9CFF;
+}
+
+.special-offer__checkbox:checked+.special-offer__checkmark::before {
+  top: 3px;
+  left: 23px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+.special-offer__second-checkmark {
+  padding-left: 50px;
+  width: 210px;
+}

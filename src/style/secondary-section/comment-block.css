@@ -7,9 +7,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: rgba(31, 32, 65, 0.75);
-  font-size: 14px;
-  font-family: Montserrat;
 }
 
 .comment-block__user {
@@ -27,8 +24,12 @@
 .comment-block__user-img {
   height: 48px;
   width: 48px;
-  background-image: url(../../pictures/image.svg);
   background-position: center;
+  content: url(../../pictures/user_image.png);
+  border-radius: 32px;
+  -webkit-filter: drop-shadow(0px 10px 20px rgba(31, 32, 65, 0.2));
+          filter: drop-shadow(0px 10px 20px rgba(31, 32, 65, 0.2));
+  border: 2px solid #FFFFFF;
 }
 
 .comment-block__user-info {
@@ -45,7 +46,7 @@
 }
 
 .comment-block__user-name {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .comment-block__comment {

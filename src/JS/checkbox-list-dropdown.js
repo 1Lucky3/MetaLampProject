@@ -1,6 +1,6 @@
 checkboxListInfo = document.querySelector(".checkbox-list__info");
 checkboxListExpandMore = document.querySelector(".checkbox-list__expand-more");
-checkboxDesignationBold = document.querySelector(".checkbox-list__info .designation-bold");
+checkboxDesignationBold = document.querySelector(".checkbox-list__info .bold-designation");
 checkboxListInfo.addEventListener('click', function(e) {
   let target = e.target;
   let CheckOpacity = document.querySelector(".checkbox-list__main").style.opacity;

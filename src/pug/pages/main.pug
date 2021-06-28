@@ -20,14 +20,23 @@ html(lang="en")
         include ../layouts/layouts-fields/field-subscription
       div.upper-section__rate-button
         include ../layouts/layouts-buttons/checkbox-preferences
-        include ../layouts/layouts-buttons/gender-buttons
-        include ../layouts/layouts-buttons/special-offer-toggle
-        include ../layouts/layouts-buttons/like-button
+        div.gender-buttons
+          include ../layouts/layouts-buttons/gender-buttons
+        div.toggle
+          include ../layouts/layouts-buttons/special-offer-toggle
+        div.like-button
+          include ../layouts/layouts-buttons/like-button
         include ../layouts/layouts-buttons/rate-button
       div.upper-section__buttons-slider
-        include ../layouts/range-slider
-        include ../layouts/layouts-buttons/click-me-buttons
-        include ../layouts/layouts-buttons/pagination
+        div.range-slider
+          include ../layouts/range-slider
+        div.click-buttons
+          include ../layouts/layouts-buttons/click-me-buttons
+        div.pay-button
+          include ../layouts/layouts-buttons/pay-button-style
+          +payButton("перейти к оплате")
+        div.pagination
+          include ../layouts/layouts-buttons/pagination
     section.secondary-section
       div.secondary-section__left-dropdowns
         include ../layouts/layouts-dropdowns/room-info-dropdown-block

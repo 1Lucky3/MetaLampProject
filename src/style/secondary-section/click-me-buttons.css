@@ -1,0 +1,93 @@
+.click-buttons__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 16px;
+  width: 217px;
+  height: 118px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.click-buttons__form {
+  height: 44px;
+  width: 99px;
+  border-radius: 22px;
+  border: none;
+}
+
+.click-buttons__fill-buttons,
+.click-buttons__empty-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.click-buttons__button1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  font-size: 12px;
+  font-family: 'MontserratExtraBold';
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.click-buttons__button2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  opacity: 0.5;
+  font-size: 12px;
+  font-family: 'MontserratExtraBold';
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.click-buttons__button3 {
+  background: #FFFFFF;
+  background-image: url("../../pictures/button-border.svg");
+  font-size: 12px;
+  font-family: 'MontserratExtraBold';
+  color: #BC9CFF;
+  text-transform: uppercase;
+}
+
+.click-buttons__button4 {
+  background: #FFFFFF;
+  background-image: url("../../pictures/button-border-opacity.svg");
+  font-size: 12px;
+  font-family: 'MontserratExtraBold';
+  color: #BC9CFF;
+  text-transform: uppercase;
+}
+
+.clickme-text {
+  padding-top: 31px;
+}
+
+.clickme-text__style1 {
+  font-size: 12px;
+  font-family: 'MontserratExtraBold';
+  color: #BC9CFF;
+  text-transform: uppercase;
+}
+
+.clickme-text__style2 {
+  padding-left: 20px;
+  font-size: 12px;
+  font-family: 'MontserratExtraBold';
+  color: rgba(31, 32, 65, 0.5);
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=click-me-buttons.css.map */

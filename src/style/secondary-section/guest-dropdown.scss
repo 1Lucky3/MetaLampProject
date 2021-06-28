@@ -1,12 +1,4 @@
 
-.guest-dropdown__info{
-  padding-bottom: 5px;
-}
-.guest-dropdown__description{
-  font-size: 14px;
-  font-weight: normal;
-  color: rgba(31, 32, 65, 0.75);
-}
 .guest-dropdown__main {
   height: 44px;
   width: 320px;
@@ -16,7 +8,6 @@
   padding: 0;
   display: inline-block;
   position: relative;
-  font-family: $fontfam;
 }
 .guest-dropdown__selected {
   list-style-type: none;
@@ -50,7 +41,7 @@
   position: relative;
   border-radius: 0 0 2px 2px;
   top: 15px;
-  right: 16px;
+  right: 17px;
   list-style-type: none;
   background-color: #fff;
   button{

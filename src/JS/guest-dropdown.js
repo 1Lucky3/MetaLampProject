@@ -10,11 +10,12 @@ guestDropdownMain.addEventListener('click', function(e) {
   target = e.target;
   let guestNumber = document.querySelector(".guest-dropdown__guest-number");
   let guestWord = document.querySelector(".guest-dropdown__guest-word");
-  let guestDiscription = document.querySelector(".guest-dropdown__description");
+  let guestselected = document.querySelector(".guest-dropdown__selected");
+  let guestDiscription = document.querySelector(".guest-dropdown__selected .default-text-075");
   amountAdults = document.querySelector(".guest-dropdown__first .guest-dropdown__amount-number").innerHTML
   amountChildens = document.querySelector(".guest-dropdown__second .guest-dropdown__amount-number").innerHTML
   amountBabies = document.querySelector(".guest-dropdown__thrid .guest-dropdown__amount-number").innerHTML
-  if(target==guestDropdownMain||target==guestDropdownExpand||target==guestNumber||target==guestDiscription||target==guestWord){
+  if(target==guestselected||target==guestDropdownMain||target==guestDropdownExpand||target==guestNumber||target==guestDiscription||target==guestWord){
     if(elemOpasity.style.opacity!=1){
       $(".guest-dropdown__selected ul").css({
         'opacity' : '1',

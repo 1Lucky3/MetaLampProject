@@ -1,0 +1,25 @@
+.datedropdown__main {
+  height: 42px;
+  width: 148px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.datedropdown__text {
+  padding-left: 15px;
+  padding-top: 11.5px;
+  position: relative;
+}
+
+.datedropdown__exp {
+  position: absolute;
+  width: 12px;
+  height: 8px;
+  padding: 18px 16px;
+  top: 0px;
+  right: 0px;
+  content: url("../../pictures/expand_more.svg");
+}
+/*# sourceMappingURL=date-dropdown.css.map */

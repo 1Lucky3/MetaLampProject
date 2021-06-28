@@ -1,0 +1,62 @@
+.gender-buttons__inputs {
+  padding-top: 11px;
+  height: 24px;
+  width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gender-buttons__style {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.gender-buttons__padding {
+  padding-left: 98px;
+}
+
+.gender-buttons__radio {
+  display: none;
+  position: absolute;
+}
+
+.gender-buttons__checkmark {
+  height: 18px;
+  width: 18px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 10px;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.gender-buttons__checkmark:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 3px;
+  left: 3px;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  opacity: 0;
+}
+
+.gender-buttons__checkmark-snd {
+  padding-left: 28px;
+}
+
+.gender-buttons__radio:checked + .gender-buttons__checkmark {
+  border: 1px solid #BC9CFF;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.gender-buttons__radio:checked + .gender-buttons__checkmark::before {
+  opacity: 1;
+}
+/*# sourceMappingURL=gender-buttons.css.map */

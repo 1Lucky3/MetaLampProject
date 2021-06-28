@@ -5,41 +5,12 @@ $fontfam: 'Montserrat';
 }
 .room-info__dropdown {
   width: 266px;
-  font-family: $fontfam;
-  font-weight: bold;
-  font-size: 12px;
-  text-transform: uppercase;
   display: flex;
   flex-direction: column;
 }
-.dropdown__info{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 15px;
-  padding-bottom: 5px;
-  span{
-    height: 15px;
-    margin-bottom: 1px;
-    box-sizing: content-box;
-  }
-}
-.caption-bold{
-  color: #1F2041;
-  font-family: $fontfam;
-  font-weight: bold;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-.caption__default{
-  color: rgba(31, 32, 65, 0.5);
-  font-weight: normal;
-}
 .caption__description{
-  font-size: 14px;
-  font-weight: normal;
   text-transform: lowercase;
-  color: rgba(31, 32, 65, 0.75);
+  font-weight: 400;
   z-index: -1;
 }
 .dropdown__main {

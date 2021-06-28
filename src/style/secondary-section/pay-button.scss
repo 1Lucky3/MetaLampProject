@@ -1,0 +1,22 @@
+.pay-button__form {
+  width: 320px;
+  height: 44px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  border: none;
+  color: #FFFFFF;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'MontserratExtraBold';
+  font-size: 12px;
+}
+
+.pay-button__arrow {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background: url('../../pictures/arrow_forward.svg');
+  right: 14px;
+  top: 14px;
+}

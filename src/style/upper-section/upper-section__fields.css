@@ -7,56 +7,7 @@
 }
 
 .dropdown {
-  height: 64.44px;
-  padding-top: 19.56px;
-}
-
-.dropdown input {
-  border: 1px solid rgba(31, 32, 65, 0.25);
-}
-
-.dropdown input::-webkit-input-placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.dropdown input:-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.dropdown input::-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.dropdown input::placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.dropdown__text {
-  height: 20.44px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.dropdown__span {
-  padding-bottom: 5px;
-}
-
-.datepicker__text {
-  height: 23px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.datepicker__span {
-  padding-bottom: 5px;
+  padding-top: 20px;
 }
 
 .datedropdown {
@@ -73,120 +24,11 @@
           justify-content: space-between;
 }
 
-.datedropdown__input {
-  width: 150px;
-  height: 65px;
-}
-
-.datedropdown__input input {
-  border: 1px solid rgba(31, 32, 65, 0.25);
-}
-
-.datedropdown__input input::-webkit-input-placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.datedropdown__input input:-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.datedropdown__input input::-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.datedropdown__input input::placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.datedropdown__text {
-  height: 21px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.datedropdown__span {
-  padding-bottom: 5px;
-}
-
 .filterdate {
-  padding-top: 40.56px;
-  height: 65px;
-}
-
-.filterdate input {
-  border: 1px solid rgba(31, 32, 65, 0.25);
-}
-
-.filterdate input::-webkit-input-placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.filterdate input:-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.filterdate input::-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.filterdate input::placeholder {
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.filterdate__text {
-  height: 21px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.filterdate__span {
-  padding-bottom: 5px;
+  padding-top: 40px;
 }
 
 .subscription {
-  height: 64px;
   padding-top: 41px;
-}
-
-.subscription input {
-  border: 1px solid rgba(31, 32, 65, 0.25);
-}
-
-.subscription input::-webkit-input-placeholder {
-  color: rgba(31, 32, 65, 0.25);
-}
-
-.subscription input:-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.25);
-}
-
-.subscription input::-ms-input-placeholder {
-  color: rgba(31, 32, 65, 0.25);
-}
-
-.subscription input::placeholder {
-  color: rgba(31, 32, 65, 0.25);
-}
-
-.subscription__text {
-  height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.subscription__span {
-  padding-bottom: 5px;
 }
 /*# sourceMappingURL=upper-section__fields.css.map */

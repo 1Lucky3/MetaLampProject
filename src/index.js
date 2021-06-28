@@ -1,4 +1,7 @@
 import './main.css'
+import './plugins/jquery-ui.css'
+import './plugins/jquery-ui'
+import './JS/range-slider'
 import './JS/dropdown'
 import './JS/guest-dropdown'
 import './JS/checkbox-list-dropdown'

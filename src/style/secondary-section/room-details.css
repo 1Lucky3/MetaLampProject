@@ -45,16 +45,13 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding-left: 10px;
-  font-size: 14px;
-  font-family: Montserrat;
-  color: rgba(31, 32, 65, 0.75);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .room-details__text {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .room-details__hr {

@@ -1,0 +1,36 @@
+
+.range-slider__container {
+  padding-top: 18px;
+}
+
+.range-slider__style {
+  background: #FFFFFF;
+  position: relative;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.range-slider__bar {
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+  height: 100%;
+
+}
+
+.range-slider__leftp,
+.range-slider__rightp {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: -5px;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.range-slider__leftp {
+  left: 77px;
+}
+
+.range-slider__rightp {
+  left: 162px;
+}

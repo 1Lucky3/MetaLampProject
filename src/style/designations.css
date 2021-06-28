@@ -3,6 +3,7 @@
   color: #1F2041;
   font-family: 'MontserratExtraBold';
   text-transform: uppercase;
+  padding-bottom: 4px;
 }
 
 .normal-designation {
@@ -10,11 +11,24 @@
   color: rgba(31, 32, 65, 0.5);
   font-family: 'MontserratRegular';
   text-transform: uppercase;
+  padding-bottom: 8px;
 }
 
-.default-text {
+.default-text-075 {
   font-size: 14px;
   color: rgba(31, 32, 65, 0.75);
+  font-family: 'MontserratRegular';
+}
+
+.default-text-025 {
+  font-size: 14px;
+  color: rgba(31, 32, 65, 0.25);
+  font-family: 'MontserratRegular';
+}
+
+.default-text-05 {
+  font-size: 14px;
+  color: rgba(31, 32, 65, 0.5);
   font-family: 'MontserratRegular';
 }
 /*# sourceMappingURL=designations.css.map */

@@ -1,11 +1,15 @@
-div.pagination
-  div.designation-bold pagination
-  div.pagination__style
-    div.default-text.pagination_sheets
-      a(href="#").current-sheet 1
-      a(href="#").second-sheet 2
-      a(href="#").thrid-sheet 3
-      a(href="#").open-sheet ...
-      a(href="#").last-sheet 15
-      a(href="#").next-sheet15
-    div.sheets-info 1 – 12 из 100+ вариантов аренды
+mixin addSheet(sheetClass, sheetText)
+    a(href="#" class=sheetClass)=sheetText
+
+.head
+  span.bold-designation.head__text pagination
+div.pagination__style
+  div.default-text-05.pagination__sheets
+    a.pagination__current 1
+    a.pagination__second 2
+    a.pagination__thrid 3
+    a.pagination__open ...
+    a.pagination__last 15
+    a.pagination__next
+      span.pagination__next-arrow
+  div.default-text-075.pagination__sheets-info 1 – 12 из 100+ вариантов аренды

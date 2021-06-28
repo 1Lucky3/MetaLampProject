@@ -42,6 +42,7 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
+      "window.jQuery":"jquery"
     }),
     new CleanWebpackPlugin(),
     ...PAGES.map(page => new HtmlWebpackPlugin({

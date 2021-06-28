@@ -1,0 +1,22 @@
+.subscription-field {
+  width: 267px;
+  height: 44px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+}
+.subscription-field__text {
+  padding-left: 15px;
+  padding-top: 12px;
+  position: relative;
+}
+.subscription-field__exp {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  padding: 13px 13px;
+  top: 0px;
+  right: 0px;
+  content: url('../../pictures/arrow_forward-color.svg');
+}

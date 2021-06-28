@@ -2,7 +2,9 @@ include single-checkbox-style
 
 
 div.checkbox-buttons
-  div.designation-bold Checkbox Buttons
-  +styleChanges("checkbox-buttons__input1", "Можно курить")
-  +styleChanges("checkbox-buttons__input2", "Можно с питомцами")
-  +styleChanges("checkbox-buttons__input3", "Можно пригласить гостей", "(до 10 человек)")
+  div.head
+    span.bold-designation.head__text Checkbox Buttons
+  +styleChanges("preferences-button__input1", "Можно курить")
+  +styleChanges("preferences-button__input2", "Можно с питомцами")
+  +styleChanges("preferences-button__input3", "Можно пригласить гостей", "(до 10 человек)")
+  

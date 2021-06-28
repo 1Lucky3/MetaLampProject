@@ -4,10 +4,6 @@
 
 .room-info__dropdown {
   width: 266px;
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 12px;
-  text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,46 +13,9 @@
           flex-direction: column;
 }
 
-.dropdown__info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 15px;
-  padding-bottom: 5px;
-}
-
-.dropdown__info span {
-  height: 15px;
-  margin-bottom: 1px;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-}
-
-.caption-bold {
-  color: #1F2041;
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.caption__default {
-  color: rgba(31, 32, 65, 0.5);
-  font-weight: normal;
-}
-
 .caption__description {
-  font-size: 14px;
-  font-weight: normal;
   text-transform: lowercase;
-  color: rgba(31, 32, 65, 0.75);
+  font-weight: 400;
   z-index: -1;
 }
 
