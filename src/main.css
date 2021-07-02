@@ -3,7 +3,7 @@
 @import './style/designations.css';
 @import './style/style.css';
 @import './style/upper-section/heads.css';
-@import './style/upper-section/text-field.css';
+@import '../src/blocks/text-field/text-field.scss';
 @import './style/upper-section/upper-section__fields.css';
 @import './style/upper-section/upper-section__rate-button.css';
 @import './style/upper-section/upper-section__buttons-slider.css';
@@ -12,7 +12,7 @@
 @import './style/secondary-section/dropdown-expanded.css';
 @import './style/secondary-section/checkbox-list.css';
 @import './style/secondary-section/checkbox-list-not-expanded.css';
-@import './style/secondary-section/guest-dropdown.css';
+@import './blocks/guest-dropdown/guest-dropdown.scss';
 @import './style/secondary-section/rich-checkbox.css';
 @import './style/secondary-section/bullet-list.css';
 @import './style/secondary-section/room-details.css';

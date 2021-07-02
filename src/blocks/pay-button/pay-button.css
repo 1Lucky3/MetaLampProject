@@ -17,7 +17,7 @@
   position: absolute;
   height: 18px;
   width: 18px;
-  background: url("../../pictures/arrow_forward.svg");
+  background: url("./arrow_forward.svg");
   right: 14px;
   top: 14px;
 }

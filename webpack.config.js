@@ -36,9 +36,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src/index.html')
-    }),
+    
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',

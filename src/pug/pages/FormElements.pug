@@ -15,9 +15,9 @@ html(lang="en")
         include ../layouts/layouts-fields/field-hoverfocus
         include ../layouts/layouts-fields/field-dropdown
         include ../layouts/layouts-fields/field-datepicker
-        include ../layouts/layouts-fields/field-datedropdown
-        include ../layouts/layouts-fields/field-filterdate
-        include ../layouts/layouts-fields/field-subscription
+        include ../../blocks/date-dropdown/date-dropdown
+        include ../../blocks/filter-date-dropdown/filter-date-dropdown
+        include ../../blocks/subscription-field/subscription-field
       div.upper-section__rate-button
         include ../layouts/layouts-buttons/checkbox-preferences
         div.gender-buttons
@@ -33,7 +33,7 @@ html(lang="en")
         div.click-buttons
           include ../layouts/layouts-buttons/click-me-buttons
         div.pay-button
-          include ../layouts/layouts-buttons/pay-button-style
+          include ../../blocks/pay-button/pay-button-template
           +payButton("перейти к оплате")
         div.pagination
           include ../layouts/layouts-buttons/pagination

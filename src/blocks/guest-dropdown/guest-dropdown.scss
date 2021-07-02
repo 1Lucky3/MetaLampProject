@@ -24,7 +24,7 @@
   top: 0px;
   right: 0px;
   position: absolute;
-  content: url('../../pictures/expand_more.svg');
+  content: url('./expand_more.svg');
 }
 .guest-dropdown__selected ul{
   opacity: 0;
@@ -41,17 +41,17 @@
   position: relative;
   border-radius: 0 0 2px 2px;
   top: 15px;
-  right: 17px;
+  right: 16px;
   list-style-type: none;
   background-color: #fff;
-  button{
-    top: 7px;
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    border-radius: 22px;
-  }
+}
+.guest-dropdown__open button{
+  top: 7px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 22px;
 }
 .guest-dropdown__open li{
   height: 32px;

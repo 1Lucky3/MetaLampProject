@@ -1,6 +1,6 @@
 @import url("../secondary-section/range-slider.scss");
 @import url("../secondary-section/click-me-buttons.css");
-@import url("../secondary-section/pay-button.scss");
+@import url("../../blocks/pay-button/pay-button.scss");
 @import url("../secondary-section/pagination.scss");
 .upper-section__buttons-slider {
   width: 320px;
