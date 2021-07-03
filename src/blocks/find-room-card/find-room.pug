@@ -1,0 +1,13 @@
+.find-room
+  .find-room__designation
+    h1 Найдём номера под ваши пожелания
+  .find-room__date-dropdown
+    include ../date-dropdown/date-dropdown
+    +dateDropdown("прибытие","выезд","ДД.ММ.ГГГГ","ДД.ММ.ГГГГ")
+  .find-room__guest-dropdown
+    .head
+      span.bold-designation.head__text гости
+    include ../guest-dropdown/guests-dropdown
+  .find-room__find-button
+    include ../pay-button/pay-button-template
+    +payButton("подобрать номер")

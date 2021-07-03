@@ -22,7 +22,7 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: './index.js',
   mode: 'development',
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   devServer: {
     /** Будет запускать сервер на localhost:8080 в этой папке*/
     contentBase: './dist',
@@ -37,16 +37,19 @@ module.exports = {
   },
   plugins: [
     
+    new HtmlWebpackPlugin({
+      filename: 'Cards.html',
+      template: './pug/pages/Cards.pug'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'FormElements.html',
+      template: './pug/pages/FormElements.pug'
+    }),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
       "window.jQuery":"jquery"
-    }),
-    new CleanWebpackPlugin(),
-    ...PAGES.map(page => new HtmlWebpackPlugin({
-      template: `${PAGES_DIR}/${page}`,
-      filename: `./${page.replace(/\.pug/, '.html')}`
-    }))
+    })
   ],
   module: {
     rules: [

@@ -1,0 +1,148 @@
+.booking-card {
+  width: 380px;
+  height: 512px;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.booking-card__designation {
+  font-family: 'MontserratExtraBold';
+  padding: 40px 30px 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.booking-card__number-symbol {
+  color: #1F2041;
+  font-family: "MontserratExtraBold";
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.booking-card__designation h1 {
+  padding-left: 6px;
+  margin: 0;
+  font-family: 'MontserratExtraBold';
+  font-size: 24px;
+  color: #1F2041;
+  font-weight: 700;
+}
+
+.booking-card__room {
+  padding-left: 8px;
+  color: #BC9CFF;
+  font-family: "MontserratExtraBold";
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.booking-card__price {
+  padding-left: 96px;
+  color: rgba(31, 32, 65, 0.5);
+  font-family: "MontserratExtraBold";
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.booking-card__price-day {
+  padding-left: 4px;
+  color: rgba(31, 32, 65, 0.5);
+  font-family: "MontserratRegular";
+  text-transform: normal;
+  font-size: 12px;
+}
+
+.booking-card__date-dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px 30px 0 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.booking-card__guest-dropdown {
+  padding: 20px 30px 0 30px;
+}
+
+.booking-card__main-text {
+  padding: 20px 30px 0 30px;
+}
+
+.booking-card__main-text div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.booking-card__main-price {
+  color: rgba(31, 32, 65, 0.75);
+  font-family: "MontserratRegular";
+  text-transform: normal;
+  font-size: 14px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.booking-card__left-span {
+  width: 214px;
+}
+
+.booking-card__info-span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  right: 80px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 50%;
+  color: rgba(31, 32, 65, 0.25);
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+}
+
+.booking-card__main-total {
+  color: #1F2041;
+  font-family: "MontserratExtraBold";
+  text-transform: normal;
+  font-size: 19px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.booking-card__main-total hr {
+  position: absolute;
+  border: 0.5px dashed rgba(31, 32, 65, 0.25);
+  width: 182px;
+  margin: 0;
+  left: 64px;
+  bottom: 4px;
+}
+
+.booking-card__booking-button {
+  padding: 20px 30px 0 30px;
+}
+/*# sourceMappingURL=booking-card.css.map */

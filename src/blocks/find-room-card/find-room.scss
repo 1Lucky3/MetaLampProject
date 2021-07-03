@@ -1,0 +1,23 @@
+@import '../card-template/card-template.scss';
+
+.find-room{
+  @include cardSize(374px, 380px, 1px solid rgba(0, 0, 0, 0.12), 0px 0px 25px rgba(0, 0, 0, 0.2))
+}
+.find-room__designation{
+  padding: 40px 30px 0 30px;
+}
+.find-room__designation h1{
+  @include cardDesignation(24px)
+}
+.find-room__date-dropdown{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px 0 30px;
+  justify-content: space-between;
+}
+.find-room__guest-dropdown{
+  padding: 20px 30px 0 30px;  
+}
+.find-room__find-button{
+  padding: 31px 30px 0 30px; 
+}

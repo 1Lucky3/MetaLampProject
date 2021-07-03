@@ -1,0 +1,22 @@
+.calendar {
+  width: 320px;
+  height: 369px;
+  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.calendar__month {
+  padding: 20px 20px 0 20px;
+}
+
+.calendar__month-info {
+  margin: 0;
+  font-family: 'MontserratExtraBold';
+  font-size: 19px;
+  color: #1F2041;
+  font-weight: 700;
+}
+/*# sourceMappingURL=calendar.css.map */

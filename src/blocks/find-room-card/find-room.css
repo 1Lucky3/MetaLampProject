@@ -1,0 +1,44 @@
+.find-room {
+  width: 380px;
+  height: 374px;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.find-room__designation {
+  padding: 40px 30px 0 30px;
+}
+
+.find-room__designation h1 {
+  margin: 0;
+  font-family: 'MontserratExtraBold';
+  font-size: 24px;
+  color: #1F2041;
+  font-weight: 700;
+}
+
+.find-room__date-dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px 30px 0 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.find-room__guest-dropdown {
+  padding: 20px 30px 0 30px;
+}
+
+.find-room__find-button {
+  padding: 31px 30px 0 30px;
+}
+/*# sourceMappingURL=find-room.css.map */

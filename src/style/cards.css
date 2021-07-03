@@ -1,0 +1,9 @@
+@import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\find-room-card\find-room.css);
+@import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\booking-card\booking-card.css);
+@import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\calendar\calendar.css);
+.cards__wrapper {
+  width: 1440px;
+  height: 1350px;
+  background: #F4F4F6;
+}
+/*# sourceMappingURL=cards.css.map */

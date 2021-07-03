@@ -1,0 +1,23 @@
+@mixin cardSize($height, $width, $border, $boxShadow) {
+  width: $width;
+  height: $height;
+  box-shadow: $boxShadow;
+  border: $border;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+@mixin cardDesignation($fontSize){
+  margin: 0;
+  font-family: 'MontserratExtraBold';
+  font-size: $fontSize;
+  color: #1F2041;
+  font-weight: 700;
+}
+
+@mixin cardDesignationSpan($color,$fontFam,$textTrans,$size) {
+  color: $color;
+  font-family: $fontFam;
+  text-transform: $textTrans;
+  font-size: $size;
+}
