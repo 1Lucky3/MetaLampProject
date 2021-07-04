@@ -5,6 +5,4 @@ import './JS/range-slider'
 import './JS/dropdown'
 import './blocks/guest-dropdown/guest-dropdown'
 import './JS/checkbox-list-dropdown'
-import '../node_modules/air-datepicker/dist/css/datepicker.min.css'
-import '../node_modules/air-datepicker/dist/js/datepicker.js'
-import './blocks/calendar/calendar.js'
+

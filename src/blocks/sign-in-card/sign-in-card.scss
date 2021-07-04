@@ -1,0 +1,28 @@
+@import '../card-template/card-template.scss';
+
+
+.sign-in-card{
+  @include cardSize(358px,380px,1px solid rgba(0, 0, 0, 0.12),0px 0px 25px rgba(0, 0, 0, 0.2));
+}
+.sign-in-card__designation{
+  padding: 40px 30px 0;
+}
+.sign-in-card__designation h1{
+  @include cardDesignation(24px);
+}
+.sign-in-card__email-field,.sign-in-card__sign-in-button {
+  padding: 20px 30px 0;
+}
+.sign-in-card__password-field{
+  padding: 10px 30px 0;
+}
+.sign-in-card__crate-button{
+  padding: 30px 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign-in-card__crate-button-text{
+  color: #000000;
+}

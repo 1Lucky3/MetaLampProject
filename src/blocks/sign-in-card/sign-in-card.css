@@ -1,0 +1,51 @@
+.sign-in-card {
+  width: 380px;
+  height: 358px;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.sign-in-card__designation {
+  padding: 40px 30px 0;
+}
+
+.sign-in-card__designation h1 {
+  margin: 0;
+  font-family: 'MontserratExtraBold';
+  font-size: 24px;
+  color: #1F2041;
+  font-weight: 700;
+}
+
+.sign-in-card__email-field, .sign-in-card__sign-in-button {
+  padding: 20px 30px 0;
+}
+
+.sign-in-card__password-field {
+  padding: 10px 30px 0;
+}
+
+.sign-in-card__crate-button {
+  padding: 30px 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sign-in-card__crate-button-text {
+  color: #000000;
+}
+/*# sourceMappingURL=sign-in-card.css.map */

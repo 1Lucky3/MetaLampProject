@@ -20,7 +20,10 @@ const PAGES = fs.readdirSync(PAGES_DIR).filter(fileName => fileName.endsWith('.p
 
 module.exports = {
   context: path.resolve(__dirname, 'src'),
-  entry: './index.js',
+  entry: {
+    'FormElements': './index.js',
+    'Cards': './cards.js'
+  },
   mode: 'development',
   devtool: 'source-map',
   devServer: {
@@ -32,18 +35,19 @@ module.exports = {
     minimize: false
   },
   output: {
-    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    filename: 'js/[name].js',
   },
   plugins: [
-    
-    new HtmlWebpackPlugin({
-      filename: 'Cards.html',
-      template: './pug/pages/Cards.pug'
-    }),
     new HtmlWebpackPlugin({
       filename: 'FormElements.html',
-      template: './pug/pages/FormElements.pug'
+      template: './pug/pages/FormElements.pug',
+      chunks: ['FormElements'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'Cards.html',
+      template: './pug/pages/Cards.pug',
+      chunks: ['Cards'],
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',

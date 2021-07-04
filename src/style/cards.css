@@ -1,9 +1,22 @@
 @import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\find-room-card\find-room.css);
 @import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\booking-card\booking-card.css);
 @import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\calendar\calendar.css);
-.cards__wrapper {
+@import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\registration-card\registration-card.css);
+@import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\sign-in-card\sign-in-card.css);
+.cards {
   width: 1440px;
   height: 1350px;
   background: #F4F4F6;
+}
+
+.cards__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-gap: 40px;
+  padding: 72px 140px 140px;
 }
 /*# sourceMappingURL=cards.css.map */

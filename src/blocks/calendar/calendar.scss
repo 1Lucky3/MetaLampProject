@@ -1,7 +1,7 @@
 @import '../card-template/card-template.scss';
 
 .calendar {
-  @include cardSize(369px,320px,1px solid rgba(31, 32, 65, 0.25),0px 10px 20px rgba(31, 32, 65, 0.05));
+  @include cardSize(fit-content,320px,none,none);
 }
 .calendar__month {
   padding: 20px 20px 0 20px;

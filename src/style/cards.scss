@@ -1,9 +1,18 @@
 @import '../blocks/find-room-card/find-room.css';
 @import '../blocks/booking-card/booking-card.css';
 @import '../blocks/calendar/calendar.css';
+@import '../blocks/registration-card/registration-card.css';
+@import '../blocks/sign-in-card/sign-in-card.css';
 
-.cards__wrapper{
+.cards{
   width: 1440px;
   height: 1350px;
   background: #F4F4F6;
+}
+.cards__wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+  padding: 72px 140px 140px;
 }

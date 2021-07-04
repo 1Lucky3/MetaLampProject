@@ -1,6 +1,17 @@
-.cards__wrapper
-  header.header-icon
-    .header-icon__icon
-  include ../../blocks/find-room-card/find-room
-  include ../../blocks/booking-card/booking-card
-  include ../../blocks/calendar/calendar
+
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+  body 
+    .cards
+      header.header-icon
+          .header-icon__icon
+      .cards__wrapper
+        include ../../blocks/find-room-card/find-room
+        include ../../blocks/booking-card/booking-card
+        include ../../blocks/calendar/calendar
+        include ../../blocks/registration-card/registration-card
+        include ../../blocks/sign-in-card/sign-in-card

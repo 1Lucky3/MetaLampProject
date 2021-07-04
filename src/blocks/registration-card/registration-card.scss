@@ -1,0 +1,45 @@
+@import "../card-template/card-template.scss";
+
+
+.registration-card{
+  @include cardSize(646px, 380px ,1px solid rgba(0, 0, 0, 0.12), 0px 0px 25px rgba(0, 0, 0, 0.2));
+}
+
+.registration-card__designation{
+  padding: 40px 30px 0;
+}
+.registration-card__designation h1{
+  @include cardDesignation(24px)
+}
+.registration-card__surname-field{
+  padding: 10px 30px 0;
+}
+.registration-card__gender-buttons {
+  padding-left: 30px;
+}
+.registration-card__gender-buttons .gender-buttons__inputs{
+  padding-top: 10px;
+}
+.registration-card__password-field{
+  padding-top: 10px;
+}
+.registration-card__special-offer{
+  padding-left: 30px;
+}
+.registration-card__special-offer .special-offer__toggle{
+  padding-top: 10px;
+}
+.registration-card__name-field,.registration-card__birthday-field,
+.registration-card__login-details-field,
+.registration-card__pay-button{
+  padding: 20px 30px 0;
+}
+.registration-card__sign-in{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 0;
+}
+.registration-card__sign-in-text{
+  color: #000000;
+}

@@ -14,7 +14,8 @@ html(lang="en")
         include ../layouts/layouts-fields/field-default
         include ../layouts/layouts-fields/field-hoverfocus
         include ../layouts/layouts-fields/field-dropdown
-        include ../layouts/layouts-fields/field-datepicker
+        .datepickerfield
+          include ../layouts/layouts-fields/field-datepicker
         div.datedropdown
           include ../../blocks/date-dropdown/date-dropdown
           +dateDropdown("date dropdown","date dropdown","ДД.ММ.ГГГГ","19.08.2019")
@@ -23,9 +24,9 @@ html(lang="en")
       div.upper-section__rate-button
         include ../layouts/layouts-buttons/checkbox-preferences
         div.gender-buttons
-          include ../layouts/layouts-buttons/gender-buttons
+          include ../../blocks/gender-buttons/gender-buttons
         div.toggle
-          include ../layouts/layouts-buttons/special-offer-toggle
+          include ../../blocks/special-offer-toggle/special-offer-toggle
         div.like-button
           include ../layouts/layouts-buttons/like-button
         include ../layouts/layouts-buttons/rate-button
@@ -33,7 +34,7 @@ html(lang="en")
         div.range-slider
           include ../layouts/range-slider
         div.click-buttons
-          include ../layouts/layouts-buttons/click-me-buttons
+          include ../../blocks/click-me-button/click-me-buttons
         div.pay-button
           include ../../blocks/pay-button/pay-button-template
           +payButton("перейти к оплате")
@@ -56,4 +57,3 @@ html(lang="en")
         include ../layouts/layouts-dropdowns/room-details
       .footer-section__right-container
         include ../layouts/comment-block
-      

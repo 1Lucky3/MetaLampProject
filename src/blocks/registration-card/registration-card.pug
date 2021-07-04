@@ -1,0 +1,33 @@
+include ../text-field/text-field-template
+include ../gender-buttons/gender-buttons-template
+include ../special-offer-toggle/special-offer__template
+include ../pay-button/pay-button-template
+include ../click-me-button/click-me-button-template
+
+.registration-card
+  .registration-card__designation
+    h1 Регистрация аккаунта
+  .registration-card__name-field
+    +textField("Имя")
+  .registration-card__surname-field
+    +textField("Фамилия")
+  .registration-card__gender-buttons 
+    +genderButtons
+  .registration-card__birthday-field
+    .head
+      span.bold-designation дата рождения
+    +textField("ДД.ММ.ГГГГ")
+  .registration-card__login-details-field
+    .head
+      span.bold-designation данные для входа в сервис
+    .registration-card__email-field
+    +textField("Email")
+    .registration-card__password-field
+    +textField("Пароль")
+  .registration-card__special-offer
+    +toggleTemplate("Получать спецпредложения")
+  .registration-card__pay-button
+    +payButton("перейти к оплате")
+  .registration-card__sign-in
+    span.registration-card__sign-in-text.default-text-05 Уже есть аккаунт на Toxin
+    +clickMeButtonStyle("click-buttons__button3","войти")

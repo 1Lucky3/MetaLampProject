@@ -4,7 +4,6 @@
 @import './style/style.css';
 @import './style/upper-section/heads.css';
 @import '../src/blocks/text-field/text-field.scss';
-@import './style/upper-section/upper-section__fields.css';
 @import './style/upper-section/upper-section__rate-button.css';
 @import './style/upper-section/upper-section__buttons-slider.css';
 @import './style/secondary-section/secondary-section.css';

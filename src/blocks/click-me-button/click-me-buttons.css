@@ -56,7 +56,7 @@
 
 .click-buttons__button3 {
   background: #FFFFFF;
-  background-image: url("../../pictures/button-border.svg");
+  background-image: url("./button-border.svg");
   font-size: 12px;
   font-family: 'MontserratExtraBold';
   color: #BC9CFF;
@@ -65,7 +65,7 @@
 
 .click-buttons__button4 {
   background: #FFFFFF;
-  background-image: url("../../pictures/button-border-opacity.svg");
+  background-image: url("./button-border-opacity.svg");
   font-size: 12px;
   font-family: 'MontserratExtraBold';
   color: #BC9CFF;

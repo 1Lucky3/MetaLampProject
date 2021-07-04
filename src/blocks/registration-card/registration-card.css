@@ -1,0 +1,69 @@
+.registration-card {
+  width: 380px;
+  height: 646px;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.registration-card__designation {
+  padding: 40px 30px 0;
+}
+
+.registration-card__designation h1 {
+  margin: 0;
+  font-family: 'MontserratExtraBold';
+  font-size: 24px;
+  color: #1F2041;
+  font-weight: 700;
+}
+
+.registration-card__surname-field {
+  padding: 10px 30px 0;
+}
+
+.registration-card__gender-buttons {
+  padding-left: 30px;
+}
+
+.registration-card__gender-buttons .gender-buttons__inputs {
+  padding-top: 10px;
+}
+
+.registration-card__password-field {
+  padding-top: 10px;
+}
+
+.registration-card__special-offer {
+  padding-left: 30px;
+}
+
+.registration-card__special-offer .special-offer__toggle {
+  padding-top: 10px;
+}
+
+.registration-card__name-field, .registration-card__birthday-field,
+.registration-card__login-details-field,
+.registration-card__pay-button {
+  padding: 20px 30px 0;
+}
+
+.registration-card__sign-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 30px 0;
+}
+
+.registration-card__sign-in-text {
+  color: #000000;
+}
+/*# sourceMappingURL=registration-card.css.map */

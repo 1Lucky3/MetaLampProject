@@ -1,0 +1,16 @@
+include ../text-field/text-field-template
+include ../pay-button/pay-button-template
+include ../click-me-button/click-me-button-template
+
+.sign-in-card
+  .sign-in-card__designation
+    h1 Войти
+  .sign-in-card__email-field 
+    +textField("Email")
+  .sign-in-card__password-field
+    +textField("Пароль")
+  .sign-in-card__sign-in-button
+    +payButton("войти")
+  .sign-in-card__crate-button
+    span.sign-in-card__crate-button-text.default-text-05 Нет аккаунта на Toxin?
+    +clickMeButtonStyle("click-buttons__button3","создать")
