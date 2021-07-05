@@ -1,0 +1,9 @@
+
+@mixin HeaderFooterblock($h,$w,$bs) {
+  height: $h;
+  width: $w;
+  background: #FFFFFF;
+  box-shadow: $bs;
+  position: relative;
+  display: flex;
+}

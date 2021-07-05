@@ -28,7 +28,7 @@
   padding: 10px 30px 0;
 }
 
-.sign-in-card__crate-button {
+.sign-in-card__create-button {
   padding: 30px 30px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,7 +45,7 @@
           align-items: center;
 }
 
-.sign-in-card__crate-button-text {
+.sign-in-card__create-button-text {
   color: #000000;
 }
 /*# sourceMappingURL=sign-in-card.css.map */

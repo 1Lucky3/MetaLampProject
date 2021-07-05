@@ -1,0 +1,68 @@
+@import '../header-footers-template.scss';
+
+.guest-header{
+  @include HeaderFooterblock(70px,1440px,0px 10px 20px rgba(31, 32, 65, 0.05));
+}
+.guest-header__logo{
+  height: 40px;
+  width: 106px;
+  background: url(./Logo.svg);
+  position: absolute;
+  top: 15px;
+  left: 140px;
+}
+.guest-header__nav{
+  width: 447px;
+  height: 21px;
+  padding-top: 26px;
+  padding-left: 530px;
+  display: flex;
+  justify-content: space-between;
+}
+.guest-header__about{
+  font-family: 'MontserratExtraBold';
+}
+.guest-header__services::after,.guest-header__agreements::after{
+  height: 8px;
+  width: 12px;
+  content: url(./expand_more-header.svg);
+  padding: 2.15px 6px;
+}
+.guest-header__registration-button{
+  padding-left: 20px;
+  padding-top: 18px;
+}
+.guest-header__sign-in-button{
+  margin-left: 20px;
+  margin-top: 18px;
+  border-radius: 22px;
+  width: 87px;
+  height: 34px;
+  border: none;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  position: relative;
+}
+.guest-header__sign-in-button::before{
+  content: "";
+  width: 83px;
+  height: 30px;
+  left: 2px;
+  top: 2px;
+  border-radius: 22px;
+  background: #FFFFFF;
+  position: absolute;
+}
+.guest-header__button {
+  font-family: 'MontserratExtraBold';
+  position: absolute;
+  color: #BC9CFF;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-top: 9px;
+  height: fit-content;
+}
+.click-buttons__form {
+  height: 34px;
+  width: 196px;
+}

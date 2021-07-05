@@ -22,7 +22,8 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: {
     'FormElements': './index.js',
-    'Cards': './cards.js'
+    'Cards': './cards.js',
+    'HeadersFooters': './HeadersFooters.js'
   },
   mode: 'development',
   devtool: 'source-map',
@@ -48,6 +49,11 @@ module.exports = {
       filename: 'Cards.html',
       template: './pug/pages/Cards.pug',
       chunks: ['Cards'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'HeadersFooters.html',
+      template: './pug/pages/HeadersFooters.pug',
+      chunks: ['HeadersFooters'],
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',

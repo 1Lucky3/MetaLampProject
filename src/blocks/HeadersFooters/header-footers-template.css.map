@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "header-footers-template.scss"
+    ],
+    "names": [],
+    "file": "header-footers-template.css"
+}

@@ -1,0 +1,16 @@
+include room-card__slider
+include room-card__expands
+include room-card__designation
+include ../rate-buttons/rate-button-stars
+
+.room-card
+  .room-card__picture
+    +expands
+    +slider
+  +designation('span class="room-card__lux"','люкс')
+  hr.room-card__hr
+  .room-card__rate
+    +star("room")
+    span.room-card__rate-number 145
+    span.room-card__rate-comment Отзывов
+

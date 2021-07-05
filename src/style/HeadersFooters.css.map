@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAP,mGAAO;AACP,OAAO,CAAP,iGAAO;AACP,OAAO,CAAP,yHAAO;AAEP,AAAA,eAAe,CAAA;EACb,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,OAAO;CACpB;;AACD,AAAA,sBAAsB,CAAC;EACrB,WAAW,EAAE,IAAI;CAClB;;AACD,AAAA,uBAAuB,EAAC,uBAAuB,CAAA;EAC7C,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "HeadersFooters.scss"
+    ],
+    "names": [],
+    "file": "HeadersFooters.css"
+}

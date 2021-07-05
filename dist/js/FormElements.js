@@ -1370,7 +1370,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_button_border_svg__WEBPACK_IMPORTED_MODULE_3__.default);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_button_border_opacity_svg__WEBPACK_IMPORTED_MODULE_4__.default);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".click-buttons__container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  padding-top: 16px;\n  width: 217px;\n  height: 118px;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n\n.click-buttons__form {\n  height: 44px;\n  width: 99px;\n  border-radius: 22px;\n  border: none;\n}\n\n.click-buttons__fill-buttons,\n.click-buttons__empty-buttons {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n\n.click-buttons__button1 {\n  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));\n  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #FFFFFF;\n  text-transform: uppercase;\n}\n\n.click-buttons__button2 {\n  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));\n  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);\n  opacity: 0.5;\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #FFFFFF;\n  text-transform: uppercase;\n}\n\n.click-buttons__button3 {\n  background: #FFFFFF;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #BC9CFF;\n  text-transform: uppercase;\n}\n\n.click-buttons__button4 {\n  background: #FFFFFF;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #BC9CFF;\n  text-transform: uppercase;\n}\n\n.clickme-text {\n  padding-top: 31px;\n}\n\n.clickme-text__style1 {\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #BC9CFF;\n  text-transform: uppercase;\n}\n\n.clickme-text__style2 {\n  padding-left: 20px;\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: rgba(31, 32, 65, 0.5);\n  text-transform: uppercase;\n}\n/*# sourceMappingURL=click-me-buttons.css.map */", "",{"version":3,"sources":["webpack://./blocks/click-me-button/click-me-buttons.scss","webpack://./blocks/click-me-button/click-me-buttons.css"],"names":[],"mappings":"AAMA;EACE,oBAAa;EACb,oBAAgB;EAChB,aAAa;EACb,4BAAY;EACZ,6BAAa;MACb,0BAA8B;UAC/B,sBAAA;ECLC,iBAAiB;EDOnB,YAAA;EACE,aAAY;EACZ,yBAAW;MACX,sBAAmB;UACX,8BAAI;ACLd;;ADQA;EACA,YAAA;EACE,WAAS;EACT,mBAAmB;EACnB,YAAA;ACLF;;ADQA;;EA5BE,oBAAe;EACf,oBAAa;EACb,aA4BoB;EA3BpB,8BAAyB;EA4B1B,6BAAA;MCFK,uBAAuB;UDI7B,mBAAwB;EACtB,yBAAY;MACZ,sBAAY;UAnCZ,8BAAe;ACkCjB;;AAEA;EDCC,uFAAA;ECCC,6DAA6D;EDC/D,eAAA;EACE,kCAAmB;EACnB,cAAA;EAzCA,yBAAe;AC2CjB;;AAEA;EDFC,uFAAA;ECIC,6DAA6D;EDF/D,YAAA;EACE,eAAY;EACZ,kCAAkB;EA/ClB,cAAW;EACX,yBAAa;ACoDf;;AAEA;EACE,mBAAmB;EDLrB,yDAAc;EACZ,eAAa;EACd,kCAAA;ECOC,cAAc;EDLhB,yBAAsB;ACOtB;;AAEA;ED7DE,mBAAgB;EAsDjB,yDAAA;ECUC,eAAe;EDRjB,kCAAsB;EACpB,cAAc;EA5Dd,yBAAe;ACuEjB;;AAEA;EDXC,iBAAA;ACaD;;AAEA;EACE,eAAe;EACf,kCAAkC;EAClC,cAAc;EACd,yBAAyB;AAC3B;;AAEA;EACE,kBAAkB;EAClB,eAAe;EACf,kCAAkC;EAClC,4BAA4B;EAC5B,yBAAyB;AAC3B;AACA,+CAA+C","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".click-buttons__container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  padding-top: 16px;\n  width: 217px;\n  height: 118px;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n\n.click-buttons__form {\n  height: 44px;\n  width: 99px;\n  border-radius: 22px;\n  border: none;\n}\n\n.click-buttons__fill-buttons,\n.click-buttons__empty-buttons {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n\n.click-buttons__button1 {\n  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));\n  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #FFFFFF;\n  text-transform: uppercase;\n}\n\n.click-buttons__button2 {\n  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));\n  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);\n  opacity: 0.5;\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #FFFFFF;\n  text-transform: uppercase;\n}\n\n.click-buttons__button3 {\n  background: #FFFFFF;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #BC9CFF;\n  text-transform: uppercase;\n}\n\n.click-buttons__button4 {\n  background: #FFFFFF;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #BC9CFF;\n  text-transform: uppercase;\n}\n\n.clickme-text {\n  padding-top: 31px;\n}\n\n.clickme-text__style1 {\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: #BC9CFF;\n  text-transform: uppercase;\n}\n\n.clickme-text__style2 {\n  padding-left: 20px;\n  font-size: 12px;\n  font-family: 'MontserratExtraBold';\n  color: rgba(31, 32, 65, 0.5);\n  text-transform: uppercase;\n}\n/*# sourceMappingURL=click-me-buttons.css.map */", "",{"version":3,"sources":["webpack://./blocks/click-me-button/click-me-buttons.scss","webpack://./blocks/click-me-button/click-me-buttons.css"],"names":[],"mappings":"AAOA;EACE,oBAAa;EACb,oBAAgB;EAChB,aAAa;EACb,4BAAY;EACZ,6BAAa;MACb,0BAA8B;UAC/B,sBAAA;ECNC,iBAAiB;EDQnB,YAAA;EACE,aAAY;EACZ,yBAAW;MACX,sBAAmB;UACX,8BAAI;ACNd;;ADSA;EACA,YAAA;EACE,WAAS;EACT,mBAAmB;EACnB,YAAA;ACNF;;ADSA;;EA7BE,oBAAe;EACf,oBAAa;EACb,aA6BoB;EA5BpB,8BAAyB;EA6B1B,6BAAA;MCHK,uBAAuB;UDK7B,mBAAwB;EACtB,yBAAY;MACZ,sBAAY;UApCZ,8BAAe;ACkCjB;;AAEA;EDEC,uFAAA;ECAC,6DAA6D;EDE/D,eAAA;EACE,kCAAmB;EACnB,cAAA;EA1CA,yBAAe;AC2CjB;;AAEA;EDDC,uFAAA;ECGC,6DAA6D;EDD/D,YAAA;EACE,eAAY;EACZ,kCAAkB;EAhDlB,cAAW;EACX,yBAAa;ACoDf;;AAEA;EACE,mBAAmB;EDJrB,yDAAc;EACZ,eAAa;EACd,kCAAA;ECMC,cAAc;EDJhB,yBAAsB;ACMtB;;AAEA;ED7DE,mBAAgB;EAuDjB,yDAAA;ECSC,eAAe;EDPjB,kCAAsB;EACpB,cAAc;EA7Dd,yBAAe;ACuEjB;;AAEA;EDVC,iBAAA;ACYD;;AAEA;EACE,eAAe;EACf,kCAAkC;EAClC,cAAc;EACd,yBAAyB;AAC3B;;AAEA;EACE,kBAAkB;EAClB,eAAe;EACf,kCAAkC;EAClC,4BAA4B;EAC5B,yBAAyB;AAC3B;AACA,+CAA+C","sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1563,6 +1563,42 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".pay-button__form {\r\n  width: 320px;
 
 /***/ }),
 
+/***/ "../node_modules/css-loader/dist/cjs.js!./blocks/rate-buttons/rate-button.scss":
+/*!*************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!./blocks/rate-buttons/rate-button.scss ***!
+  \*************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "../node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _star_border_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./star_border.svg */ "./blocks/rate-buttons/star_border.svg");
+/* harmony import */ var _star_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./star.svg */ "./blocks/rate-buttons/star.svg");
+// Imports
+
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_star_border_svg__WEBPACK_IMPORTED_MODULE_3__.default);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_star_svg__WEBPACK_IMPORTED_MODULE_4__.default);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".rate-button__inputs {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding-top: 16px;\r\n  input {\r\n    margin: 0;\r\n  }\r\n}\r\n\r\n.rate-button__padding {\r\n  padding-left: 20px;\r\n}\r\n\r\n.rate-button__style {\r\n  overflow: hidden;\r\n  width: 120px;\r\n}\r\n\r\n.rate-button__style:not(:checked)>input {\r\n  display: none;\r\n}\r\n\r\n.rate-button__style:not(:checked)>label {\r\n  width: 20px;\r\n  height: 19px;\r\n  margin: 2.5px 2px;\r\n  float: right;\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-position: center;\r\n}\r\n\r\n.rate-button__style:not(:checked)>label:before {\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\n.rate-button__style>input:checked~label {\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n}\r\n\r\n.rate-button__style:not(:checked)>label:hover,\r\n.rate-button__style:not(:checked)>label:hover~label {\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n}", "",{"version":3,"sources":["webpack://./blocks/rate-buttons/rate-button.scss"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,iBAAiB;EACjB;IACE,SAAS;EACX;AACF;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;EAChB,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,iBAAiB;EACjB,YAAY;EACZ,yDAA0C;EAC1C,2BAA2B;AAC7B;;AAEA;EACE,yDAA0C;AAC5C;;AAEA;EACE,yDAAmC;AACrC;;AAEA;;EAEE,yDAAmC;AACrC","sourcesContent":[".rate-button__inputs {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding-top: 16px;\r\n  input {\r\n    margin: 0;\r\n  }\r\n}\r\n\r\n.rate-button__padding {\r\n  padding-left: 20px;\r\n}\r\n\r\n.rate-button__style {\r\n  overflow: hidden;\r\n  width: 120px;\r\n}\r\n\r\n.rate-button__style:not(:checked)>input {\r\n  display: none;\r\n}\r\n\r\n.rate-button__style:not(:checked)>label {\r\n  width: 20px;\r\n  height: 19px;\r\n  margin: 2.5px 2px;\r\n  float: right;\r\n  background-image: url('./star_border.svg');\r\n  background-position: center;\r\n}\r\n\r\n.rate-button__style:not(:checked)>label:before {\r\n  background-image: url('./star_border.svg');\r\n}\r\n\r\n.rate-button__style>input:checked~label {\r\n  background-image: url('./star.svg');\r\n}\r\n\r\n.rate-button__style:not(:checked)>label:hover,\r\n.rate-button__style:not(:checked)>label:hover~label {\r\n  background-image: url('./star.svg');\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "../node_modules/css-loader/dist/cjs.js!./blocks/registration-card/registration-card.css":
 /*!***********************************************************************************************!*\
   !*** ../node_modules/css-loader/dist/cjs.js!./blocks/registration-card/registration-card.css ***!
@@ -1590,6 +1626,48 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".registration-card {\n  width: 380px;\
 
 /***/ }),
 
+/***/ "../node_modules/css-loader/dist/cjs.js!./blocks/room-card/room-card.css":
+/*!*******************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!./blocks/room-card/room-card.css ***!
+  \*******************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "../node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _roompict_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./roompict.png */ "./blocks/room-card/roompict.png");
+/* harmony import */ var _expand_more_left_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./expand_more-left.svg */ "./blocks/room-card/expand_more-left.svg");
+/* harmony import */ var _expand_more_rigth_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./expand_more-rigth.svg */ "./blocks/room-card/expand_more-rigth.svg");
+/* harmony import */ var _pic1_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pic1.png */ "./blocks/room-card/pic1.png");
+// Imports
+
+
+
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_roompict_png__WEBPACK_IMPORTED_MODULE_3__.default);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_expand_more_left_svg__WEBPACK_IMPORTED_MODULE_4__.default);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_expand_more_rigth_svg__WEBPACK_IMPORTED_MODULE_5__.default);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_pic1_png__WEBPACK_IMPORTED_MODULE_6__.default);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".room-card {\n  width: 270px;\n  height: 257px;\n  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);\n          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);\n  border: none;\n  background: #ffffff;\n  border-radius: 4px;\n}\n\n.room-card__picture {\n  height: 151px;\n  width: inherit;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  border-radius: 4px 4px 0px 0px;\n  position: relative;\n}\n\n.room-card__left-expand, .room-card__right-expand {\n  height: 13px;\n  width: 8px;\n  position: absolute;\n  padding: 15.5px 18px;\n  top: 53px;\n}\n\n.room-card__left-expand {\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n.room-card__right-expand {\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  right: 0;\n}\n\n.room-card__slider {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  width: 41.25px;\n  height: 7.5px;\n  position: absolute;\n  right: 15px;\n  bottom: 15px;\n}\n\n.room-card__slider-btn, .room-card__slider-btn1 {\n  height: 5.5px;\n  width: 5px;\n  border: 1px solid #FFFFFF;\n  border-radius: 50%;\n}\n\n.room-card__slider-btn1 {\n  -webkit-filter: drop-shadow(0px 5px 5px rgba(31, 32, 65, 0.3));\n          filter: drop-shadow(0px 5px 5px rgba(31, 32, 65, 0.3));\n}\n\n.room-card__slider-btn {\n  background: #FFFFFF;\n  -webkit-box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);\n          box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);\n}\n\n.room-card__designation {\n  height: 24px;\n  font-family: 'MontserratExtraBold';\n  padding: 20px 20px 0;\n  position: relative;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n.room-card__number-symbol {\n  color: #1F2041;\n  font-size: 14px;\n}\n\n.room-card__number {\n  color: #1F2041;\n  font-size: 18px;\n  height: 24px;\n  padding-left: 3px;\n  padding-right: 2px;\n}\n\n.room-card__lux {\n  color: #BC9CFF;\n  font-size: 14px;\n  height: 15px;\n  font-weight: 700;\n  font-family: 'MontserratRegular';\n}\n\n.room-card__price, .room-card__price-day {\n  color: rgba(31, 32, 65, 0.5);\n  font-size: 14px;\n}\n\n.room-card__price {\n  right: 74px;\n  position: absolute;\n}\n\n.room-card__price-day {\n  font-family: 'MontserratRegular';\n  right: 17px;\n  position: absolute;\n}\n\n.room-card__hr {\n  height: 1px;\n  width: 230px;\n  border: none;\n  background: rgba(31, 32, 65, 0.1);\n  margin: 10px 20px 0;\n}\n\n.room-card__rate {\n  padding: 8px 20px 0;\n  color: rgba(31, 32, 65, 0.5);\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n}\n\n.room-card__rate-number {\n  font-family: 'MontserratExtraBold';\n  position: absolute;\n  right: 94.5px;\n}\n\n.room-card__rate-comment {\n  font-family: 'MontserratRegular';\n  position: absolute;\n  right: 20px;\n}\n\n.pict1 {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n/*# sourceMappingURL=room-card.css.map */", "",{"version":3,"sources":["webpack://./blocks/room-card/room-card.scss","webpack://./blocks/card-template/card-template.scss","webpack://./blocks/room-card/room-card.css"],"names":[],"mappings":"AAEA;ECDE,YDE6B;ECD7B,aDCuB;ECAvB,wDDAyE;UAA1C,gDAAI;ECEnC,YAAY;EACZ,mBAAkB;EDFnB,kBAAA;AEID;;AAEA;EFHE,aAAO;EACP,cAAY;EACZ,mDAA8B;EAC9B,8BAAkB;EACnB,kBAAA;AEKD;;AAEA;EFJE,YAAU;EACV,UAAU;EACV,kBAAS;EACT,oBAAS;EACV,SAAA;AEMD;;AAEA;EFLC,gDAAA;AEOD;;AAEA;EFNE,gDAAQ;EACT,QAAA;AEQD;;AAEA;EFPE,oBAAmB;EACnB,oBAAiB;EACjB,aAAO;EACP,8BAAa;EACb,6BAAkB;MAClB,uBAAW;UACH,mBAAI;EACb,yBAAA;MESK,sBAAsB;UFR5B,8BAAuB;EACrB,cAAa;EACb,aAAU;EACV,kBAAQ;EACR,WAAA;EACD,YAAA;AEUD;;AAEA;EFTC,aAAA;EEWC,UAAU;EFVZ,yBAAsB;EACpB,kBAAY;AEYd;;AAEA;EFXA,8DAAuB;UACb,sDAAI;AEad;;AAEA;EFXE,mBAAa;EACb,qDAAmB;UACpB,6CAAA;AEaD;;AAEA;EFZE,YAAW;EACZ,kCAAA;EEcC,oBAAoB;EFbtB,kBAAkB;EAChB,oBAAc;EACd,oBAAe;EACf,aAAY;EACZ,yBAAiB;MACjB,sBAAkB;UACnB,mBAAA;AEeD;;AAEA;EFdE,cAAW;EACX,eAAY;AEgBd;;AAEA;EACE,cAAc;EFfhB,eAAiB;EACf,YAAO;EACP,iBAAe;EAChB,kBAAA;AEiBD;;AAEA;EFhBE,cAAU;EACX,eAAA;EEkBC,YAAY;EFjBd,gBAAA;EACE,gCAAgC;AEmBlC;;AAEA;EACE,4BAA4B;EFlB9B,eAAc;AEoBd;;AAEA;EFlBE,WAAU;EACV,kBAAQ;AEoBV;;AFlBA;EACE,gCAAmB;EACnB,WAAO;EACP,kBAAa;AEqBf;;AAEA;EFnBC,WAAA;EEqBC,YAAY;EFpBd,YAAA;EACE,iCAAa;EACb,mBAAkB;AEsBpB;;AAEA;EFrBA,mBAAA;EACE,4BAAa;EACb,oBAAkB;EAClB,oBAAW;EACZ,aAAA;EEuBC,8BAA8B;EFrBhC,6BAAM;MACJ,uBAA2B;UAC5B,mBAAA;EEuBC,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;EAC3B,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;EAClC,kBAAkB;EAClB,aAAa;AACf;;AAEA;EACE,gCAAgC;EAChC,kBAAkB;EAClB,WAAW;AACb;;AAEA;EACE,mDAA2B;AAC7B;AACA,wCAAwC","sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "../node_modules/css-loader/dist/cjs.js!./blocks/sign-in-card/sign-in-card.css":
 /*!*************************************************************************************!*\
   !*** ../node_modules/css-loader/dist/cjs.js!./blocks/sign-in-card/sign-in-card.css ***!
@@ -1610,7 +1688,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".sign-in-card {\n  width: 380px;\n  height: 358px;\n  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);\n          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);\n  border: 1px solid rgba(0, 0, 0, 0.12);\n  background: #ffffff;\n  border-radius: 4px;\n}\n\n.sign-in-card__designation {\n  padding: 40px 30px 0;\n}\n\n.sign-in-card__designation h1 {\n  margin: 0;\n  font-family: 'MontserratExtraBold';\n  font-size: 24px;\n  color: #1F2041;\n  font-weight: 700;\n}\n\n.sign-in-card__email-field, .sign-in-card__sign-in-button {\n  padding: 20px 30px 0;\n}\n\n.sign-in-card__password-field {\n  padding: 10px 30px 0;\n}\n\n.sign-in-card__crate-button {\n  padding: 30px 30px 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n.sign-in-card__crate-button-text {\n  color: #000000;\n}\n/*# sourceMappingURL=sign-in-card.css.map */", "",{"version":3,"sources":["webpack://./blocks/sign-in-card/sign-in-card.scss","webpack://./blocks/card-template/card-template.scss","webpack://./blocks/sign-in-card/sign-in-card.css"],"names":[],"mappings":"AAGA;ECFE,YDG6B;ECF7B,aDEuB;ECDvB,mDDC2F;UAA7D,2CAA6B;ECC3D,qCAAmB;EACnB,mBAAkB;EDDnB,kBAAA;AEGD;;AAEA;EFFC,oBAAA;AEID;;AAEA;EDHE,SAAA;EACA,kCDF6B;ECG7B,eAAc;EACd,cAAa;EDHd,gBAAA;AESD;;AAEA;EFRC,oBAAA;AEUD;;AAEA;EFTC,oBAAA;AEWD;;AAEA;EFVE,oBAAa;EACb,oBAAmB;EACnB,oBAAiB;EACjB,aAAa;EACd,8BAAA;EEYC,6BAA6B;MFX/B,uBAAA;UACS,mBAAO;EACf,yBAAA;MEaK,sBAAsB;UAClB,8BAA8B;EACtC,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;AAC7B;;AAEA;EACE,cAAc;AAChB;AACA,2CAA2C","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sign-in-card {\n  width: 380px;\n  height: 358px;\n  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);\n          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);\n  border: 1px solid rgba(0, 0, 0, 0.12);\n  background: #ffffff;\n  border-radius: 4px;\n}\n\n.sign-in-card__designation {\n  padding: 40px 30px 0;\n}\n\n.sign-in-card__designation h1 {\n  margin: 0;\n  font-family: 'MontserratExtraBold';\n  font-size: 24px;\n  color: #1F2041;\n  font-weight: 700;\n}\n\n.sign-in-card__email-field, .sign-in-card__sign-in-button {\n  padding: 20px 30px 0;\n}\n\n.sign-in-card__password-field {\n  padding: 10px 30px 0;\n}\n\n.sign-in-card__create-button {\n  padding: 30px 30px 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n.sign-in-card__create-button-text {\n  color: #000000;\n}\n/*# sourceMappingURL=sign-in-card.css.map */", "",{"version":3,"sources":["webpack://./blocks/sign-in-card/sign-in-card.scss","webpack://./blocks/card-template/card-template.scss","webpack://./blocks/sign-in-card/sign-in-card.css"],"names":[],"mappings":"AAGA;ECFE,YDG6B;ECF7B,aDEuB;ECDvB,mDDC2F;UAA7D,2CAA6B;ECC3D,qCAAmB;EACnB,mBAAkB;EDDnB,kBAAA;AEGD;;AAEA;EFFC,oBAAA;AEID;;AAEA;EDHE,SAAA;EACA,kCDF6B;ECG7B,eAAc;EACd,cAAa;EDHd,gBAAA;AESD;;AAEA;EFRC,oBAAA;AEUD;;AAEA;EFTC,oBAAA;AEWD;;AAEA;EFVE,oBAAa;EACb,oBAAmB;EACnB,oBAAiB;EACjB,aAAa;EACd,8BAAA;EEYC,6BAA6B;MFX/B,uBAAA;UACS,mBAAO;EACf,yBAAA;MEaK,sBAAsB;UAClB,8BAA8B;EACtC,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;AAC7B;;AAEA;EACE,cAAc;AAChB;AACA,2CAA2C","sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1835,7 +1913,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_blocks_calendar_calendar_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!../blocks/calendar/calendar.css */ "../node_modules/css-loader/dist/cjs.js!./blocks/calendar/calendar.css");
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_blocks_registration_card_registration_card_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!../blocks/registration-card/registration-card.css */ "../node_modules/css-loader/dist/cjs.js!./blocks/registration-card/registration-card.css");
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_blocks_sign_in_card_sign_in_card_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!../blocks/sign-in-card/sign-in-card.css */ "../node_modules/css-loader/dist/cjs.js!./blocks/sign-in-card/sign-in-card.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_blocks_room_card_room_card_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!../blocks/room-card/room-card.css */ "../node_modules/css-loader/dist/cjs.js!./blocks/room-card/room-card.css");
 // Imports
+
 
 
 
@@ -1849,8 +1929,9 @@ ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_blocks_booking_ca
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_blocks_calendar_calendar_css__WEBPACK_IMPORTED_MODULE_4__.default);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_blocks_registration_card_registration_card_css__WEBPACK_IMPORTED_MODULE_5__.default);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_blocks_sign_in_card_sign_in_card_css__WEBPACK_IMPORTED_MODULE_6__.default);
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_blocks_room_card_room_card_css__WEBPACK_IMPORTED_MODULE_7__.default);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".cards{\r\n  width: 1440px;\r\n  height: 1350px;\r\n  background: #F4F4F6;\r\n}\r\n.cards__wrapper{\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr 1fr;\r\n  grid-template-rows: 1fr;\r\n  grid-gap: 40px;\r\n  padding: 72px 140px 140px;\r\n}", "",{"version":3,"sources":["webpack://./style/cards.scss"],"names":[],"mappings":"AAMA;EACE,aAAa;EACb,cAAc;EACd,mBAAmB;AACrB;AACA;EACE,aAAa;EACb,kCAAkC;EAClC,uBAAuB;EACvB,cAAc;EACd,yBAAyB;AAC3B","sourcesContent":["@import '../blocks/find-room-card/find-room.css';\r\n@import '../blocks/booking-card/booking-card.css';\r\n@import '../blocks/calendar/calendar.css';\r\n@import '../blocks/registration-card/registration-card.css';\r\n@import '../blocks/sign-in-card/sign-in-card.css';\r\n\r\n.cards{\r\n  width: 1440px;\r\n  height: 1350px;\r\n  background: #F4F4F6;\r\n}\r\n.cards__wrapper{\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr 1fr;\r\n  grid-template-rows: 1fr;\r\n  grid-gap: 40px;\r\n  padding: 72px 140px 140px;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".cards{\r\n  width: 1440px;\r\n  height: 1350px;\r\n  background: #F4F4F6;\r\n}\r\n.cards__wrapper{\r\n  height: 1060px;\r\n  display: flex;\r\n  padding: 72px 140px 140px;\r\n}\r\n.cards__wrapper__blocks{\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 1060px;\r\n  justify-content: space-between;\r\n  padding-right: 40px;\r\n}\r\n.cards__wrapper__blocks1{\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 910px;\r\n  justify-content: space-between;\r\n  padding-right: 40px;\r\n}\r\n.cards__wrapper__blocks2{\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 963px;\r\n  justify-content: space-between;\r\n}", "",{"version":3,"sources":["webpack://./style/cards.scss"],"names":[],"mappings":"AAOA;EACE,aAAa;EACb,cAAc;EACd,mBAAmB;AACrB;AACA;EACE,cAAc;EACd,aAAa;EACb,yBAAyB;AAC3B;AACA;EACE,aAAa;EACb,sBAAsB;EACtB,cAAc;EACd,8BAA8B;EAC9B,mBAAmB;AACrB;AACA;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;AACrB;AACA;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,8BAA8B;AAChC","sourcesContent":["@import '../blocks/find-room-card/find-room.css';\r\n@import '../blocks/booking-card/booking-card.css';\r\n@import '../blocks/calendar/calendar.css';\r\n@import '../blocks/registration-card/registration-card.css';\r\n@import '../blocks/sign-in-card/sign-in-card.css';\r\n@import '../blocks/room-card/room-card.css';\r\n\r\n.cards{\r\n  width: 1440px;\r\n  height: 1350px;\r\n  background: #F4F4F6;\r\n}\r\n.cards__wrapper{\r\n  height: 1060px;\r\n  display: flex;\r\n  padding: 72px 140px 140px;\r\n}\r\n.cards__wrapper__blocks{\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 1060px;\r\n  justify-content: space-between;\r\n  padding-right: 40px;\r\n}\r\n.cards__wrapper__blocks1{\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 910px;\r\n  justify-content: space-between;\r\n  padding-right: 40px;\r\n}\r\n.cards__wrapper__blocks2{\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 963px;\r\n  justify-content: space-between;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2289,42 +2370,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\r\n.range-slider__container {\r\n  pa
 
 /***/ }),
 
-/***/ "../node_modules/css-loader/dist/cjs.js!./style/secondary-section/rate-button.scss":
-/*!*****************************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js!./style/secondary-section/rate-button.scss ***!
-  \*****************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "../node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _pictures_star_border_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../pictures/star_border.svg */ "./pictures/star_border.svg");
-/* harmony import */ var _pictures_star_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../pictures/star.svg */ "./pictures/star.svg");
-// Imports
-
-
-
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_pictures_star_border_svg__WEBPACK_IMPORTED_MODULE_3__.default);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_pictures_star_svg__WEBPACK_IMPORTED_MODULE_4__.default);
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, ".rate-button__inputs {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding-top: 16px;\r\n  input {\r\n    margin: 0;\r\n  }\r\n}\r\n\r\n.rate-button__padding {\r\n  padding-left: 20px;\r\n}\r\n\r\n.rate-button__style {\r\n  overflow: hidden;\r\n  width: 120px;\r\n}\r\n\r\n.rate-button__style:not(:checked)>input {\r\n  display: none;\r\n}\r\n\r\n.rate-button__style:not(:checked)>label {\r\n  width: 20px;\r\n  height: 19px;\r\n  margin: 2.5px 2px;\r\n  float: right;\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-position: center;\r\n}\r\n\r\n.rate-button__style:not(:checked)>label:before {\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\n.rate-button__style>input:checked~label {\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n}\r\n\r\n.rate-button__style:not(:checked)>label:hover,\r\n.rate-button__style:not(:checked)>label:hover~label {\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n}", "",{"version":3,"sources":["webpack://./style/secondary-section/rate-button.scss"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,iBAAiB;EACjB;IACE,SAAS;EACX;AACF;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;EAChB,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,iBAAiB;EACjB,YAAY;EACZ,yDAAuD;EACvD,2BAA2B;AAC7B;;AAEA;EACE,yDAAuD;AACzD;;AAEA;EACE,yDAAgD;AAClD;;AAEA;;EAEE,yDAAgD;AAClD","sourcesContent":[".rate-button__inputs {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding-top: 16px;\r\n  input {\r\n    margin: 0;\r\n  }\r\n}\r\n\r\n.rate-button__padding {\r\n  padding-left: 20px;\r\n}\r\n\r\n.rate-button__style {\r\n  overflow: hidden;\r\n  width: 120px;\r\n}\r\n\r\n.rate-button__style:not(:checked)>input {\r\n  display: none;\r\n}\r\n\r\n.rate-button__style:not(:checked)>label {\r\n  width: 20px;\r\n  height: 19px;\r\n  margin: 2.5px 2px;\r\n  float: right;\r\n  background-image: url('../../pictures/star_border.svg');\r\n  background-position: center;\r\n}\r\n\r\n.rate-button__style:not(:checked)>label:before {\r\n  background-image: url('../../pictures/star_border.svg');\r\n}\r\n\r\n.rate-button__style>input:checked~label {\r\n  background-image: url('../../pictures/star.svg');\r\n}\r\n\r\n.rate-button__style:not(:checked)>label:hover,\r\n.rate-button__style:not(:checked)>label:hover~label {\r\n  background-image: url('../../pictures/star.svg');\r\n}"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
 /***/ "../node_modules/css-loader/dist/cjs.js!./style/secondary-section/rich-checkbox.css":
 /*!******************************************************************************************!*\
   !*** ../node_modules/css-loader/dist/cjs.js!./style/secondary-section/rich-checkbox.css ***!
@@ -2575,7 +2620,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_blocks_gender_buttons_gender_buttons_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!../../blocks/gender-buttons/gender-buttons.scss */ "../node_modules/css-loader/dist/cjs.js!./blocks/gender-buttons/gender-buttons.scss");
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_blocks_special_offer_toggle_special_offer_toggle_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!../../blocks/special-offer-toggle/special-offer-toggle.scss */ "../node_modules/css-loader/dist/cjs.js!./blocks/special-offer-toggle/special-offer-toggle.scss");
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_secondary_section_like_button_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!../secondary-section/like-button.scss */ "../node_modules/css-loader/dist/cjs.js!./style/secondary-section/like-button.scss");
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_secondary_section_rate_button_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!../secondary-section/rate-button.scss */ "../node_modules/css-loader/dist/cjs.js!./style/secondary-section/rate-button.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_blocks_rate_buttons_rate_button_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!../../blocks/rate-buttons/rate-button.scss */ "../node_modules/css-loader/dist/cjs.js!./blocks/rate-buttons/rate-button.scss");
 // Imports
 
 
@@ -2589,7 +2634,7 @@ ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_secondary_section
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_blocks_gender_buttons_gender_buttons_scss__WEBPACK_IMPORTED_MODULE_3__.default);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_blocks_special_offer_toggle_special_offer_toggle_scss__WEBPACK_IMPORTED_MODULE_4__.default);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_secondary_section_like_button_scss__WEBPACK_IMPORTED_MODULE_5__.default);
-___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_secondary_section_rate_button_scss__WEBPACK_IMPORTED_MODULE_6__.default);
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_blocks_rate_buttons_rate_button_scss__WEBPACK_IMPORTED_MODULE_6__.default);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, ".upper-section__rate-button {\n  padding-left: 126px;\n  padding-top: 62px;\n  width: 260px;\n}\n\n.checkbox-buttons {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  height: 129px;\n}\n\n.gender-buttons {\n  padding-top: 40.88px;\n  height: 55px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\n\n.toggle {\n  padding-top: 37px;\n}\n\n.like-button {\n  padding-top: 40px;\n}\n\n.rate-button {\n  padding-top: 40px;\n}\n/*# sourceMappingURL=upper-section__rate-button.css.map */", "",{"version":3,"sources":["webpack://./style/upper-section/upper-section__rate-button.scss","webpack://./style/upper-section/upper-section__rate-button.css"],"names":[],"mappings":"AAMA;EACE,mBAAmB;EACnB,iBAAiB;EACjB,YAAY;ACAd;;ADEA;EACE,oBAAa;EACb,oBAAgB;EAChB,aAAa;EACd,4BAAA;ECCC,6BAA6B;MDA/B,0BAAgB;UACd,sBAAoB;EACpB,aAAY;ACEd;;AAEA;EACE,oBAAoB;EDDtB,YAAQ;EACN,oBAAiB;EAClB,oBAAA;ECGC,aAAa;EDFf,4BAAa;EACX,6BAAiB;MAClB,0BAAA;UCIS,sBAAsB;ADHhC;;ACMA;EACE,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;AACnB;AACA,yDAAyD","sourceRoot":""}]);
 // Exports
@@ -14081,6 +14126,96 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./blocks/rate-buttons/star.svg":
+/*!**************************************!*\
+  !*** ./blocks/rate-buttons/star.svg ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTkiIHZpZXdCb3g9IjAgMCAyMCAxOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDE1LjI1TDMuODEyNSAxOUw1LjQ1MzEyIDExLjk2ODhMMC4wMTU2MjUgNy4yMzQzOEw3LjE4NzUgNi42MjVMMTAgMC4wMTU2MjVMMTIuODEyNSA2LjYyNUwxOS45ODQ0IDcuMjM0MzhMMTQuNTQ2OSAxMS45Njg4TDE2LjE4NzUgMTlMMTAgMTUuMjVaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXIpIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXIiIHgxPSIxMCIgeTE9Ii0yIiB4Mj0iMTAiIHkyPSIyMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjQkM5Q0ZGIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhCQTRGOSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=");
+
+/***/ }),
+
+/***/ "./blocks/rate-buttons/star_border.svg":
+/*!*********************************************!*\
+  !*** ./blocks/rate-buttons/star_border.svg ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTkiIHZpZXdCb3g9IjAgMCAyMCAxOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDEzLjQyMTlMMTMuNzUgMTUuNjcxOUwxMi43NjU2IDExLjQwNjJMMTYuMDkzOCA4LjVMMTEuNjg3NSA4LjEyNUwxMCA0LjA5Mzc1TDguMzEyNSA4LjEyNUwzLjkwNjI1IDguNUw3LjIzNDM4IDExLjQwNjJMNi4yNSAxNS42NzE5TDEwIDEzLjQyMTlaTTE5Ljk4NDQgNy4yMzQzOEwxNC41NDY5IDExLjk2ODhMMTYuMTg3NSAxOUwxMCAxNS4yNUwzLjgxMjUgMTlMNS40NTMxMiAxMS45Njg4TDAuMDE1NjI1IDcuMjM0MzhMNy4xODc1IDYuNjI1TDEwIDAuMDE1NjI1TDEyLjgxMjUgNi42MjVMMTkuOTg0NCA3LjIzNDM4WiIgZmlsbD0idXJsKCNwYWludDBfbGluZWFyKSIvPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyIiB4MT0iMTAiIHkxPSItMiIgeDI9IjEwIiB5Mj0iMjIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0JDOUNGRiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4QkE0RjkiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K");
+
+/***/ }),
+
+/***/ "./blocks/room-card/expand_more-left.svg":
+/*!***********************************************!*\
+  !*** ./blocks/room-card/expand_more-left.svg ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDggMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik03LjQyMTg4IDExLjA5MjhMNi4wMTU2MyAxMi40OTlMMC4wMTU2MjUzIDYuNDk5MDJMNi4wMTU2MyAwLjQ5OTAyNEw3LjQyMTg4IDEuOTA1MjdMMi44MjgxMyA2LjQ5OTAyTDcuNDIxODggMTEuMDkyOFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=");
+
+/***/ }),
+
+/***/ "./blocks/room-card/expand_more-rigth.svg":
+/*!************************************************!*\
+  !*** ./blocks/room-card/expand_more-rigth.svg ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDggMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0wLjU3ODEyNSAxLjkwNTI3TDEuOTg0MzggMC40OTkwMjRMNy45ODQzOCA2LjQ5OTAyTDEuOTg0MzggMTIuNDk5TDAuNTc4MTI1IDExLjA5MjhMNS4xNzE4OCA2LjQ5OTAyTDAuNTc4MTI1IDEuOTA1MjdaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K");
+
+/***/ }),
+
+/***/ "./blocks/room-card/pic1.png":
+/*!***********************************!*\
+  !*** ./blocks/room-card/pic1.png ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "357d52f6f51d01819a151cc26a68eb3f-pic1.png");
+
+/***/ }),
+
+/***/ "./blocks/room-card/roompict.png":
+/*!***************************************!*\
+  !*** ./blocks/room-card/roompict.png ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "55070f80392d0a6810efc07f36c2ea85-roompict.png");
+
+/***/ }),
+
 /***/ "./blocks/subscription-field/arrow_forward-color.svg":
 /*!***********************************************************!*\
   !*** ./blocks/subscription-field/arrow_forward-color.svg ***!
@@ -14213,36 +14348,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCAzNiAzOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMxLjk2ODggMjZWMjEuOTY4OEgyOC4wMzEyVjI2SDMxLjk2ODhaTTMxLjk2ODggMzMuOTY4OFYzMC4wMzEySDI4LjAzMTJWMzMuOTY4OEgzMS45Njg4Wk0xOS45Njg4IDkuOTY4NzVWNi4wMzEyNUgxNi4wMzEyVjkuOTY4NzVIMTkuOTY4OFpNMTkuOTY4OCAxOC4wMzEyVjE0SDE2LjAzMTJWMTguMDMxMkgxOS45Njg4Wk0xOS45Njg4IDI2VjIxLjk2ODhIMTYuMDMxMlYyNkgxOS45Njg4Wk0xOS45Njg4IDMzLjk2ODhWMzAuMDMxMkgxNi4wMzEyVjMzLjk2ODhIMTkuOTY4OFpNNy45Njg3NSAxOC4wMzEyVjE0SDQuMDMxMjVWMTguMDMxMkg3Ljk2ODc1Wk03Ljk2ODc1IDI2VjIxLjk2ODhINC4wMzEyNVYyNkg3Ljk2ODc1Wk03Ljk2ODc1IDMzLjk2ODhWMzAuMDMxMkg0LjAzMTI1VjMzLjk2ODhINy45Njg3NVpNMjQgMTguMDMxMkgzNlYzOEgwVjkuOTY4NzVIMTJWNi4wMzEyNUwxOCAwLjAzMTI1TDI0IDYuMDMxMjVWMTguMDMxMloiIGZpbGw9InVybCgjcGFpbnQwX2xpbmVhcikiLz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhciIgeDE9IjE4IiB5MT0iLTQiIHgyPSIxOCIgeTI9IjQ0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiNCQzlDRkYiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOEJBNEY5Ii8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg==");
-
-/***/ }),
-
-/***/ "./pictures/star.svg":
-/*!***************************!*\
-  !*** ./pictures/star.svg ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTkiIHZpZXdCb3g9IjAgMCAyMCAxOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDE1LjI1TDMuODEyNSAxOUw1LjQ1MzEyIDExLjk2ODhMMC4wMTU2MjUgNy4yMzQzOEw3LjE4NzUgNi42MjVMMTAgMC4wMTU2MjVMMTIuODEyNSA2LjYyNUwxOS45ODQ0IDcuMjM0MzhMMTQuNTQ2OSAxMS45Njg4TDE2LjE4NzUgMTlMMTAgMTUuMjVaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXIpIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXIiIHgxPSIxMCIgeTE9Ii0yIiB4Mj0iMTAiIHkyPSIyMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjQkM5Q0ZGIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhCQTRGOSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=");
-
-/***/ }),
-
-/***/ "./pictures/star_border.svg":
-/*!**********************************!*\
-  !*** ./pictures/star_border.svg ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTkiIHZpZXdCb3g9IjAgMCAyMCAxOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDEzLjQyMTlMMTMuNzUgMTUuNjcxOUwxMi43NjU2IDExLjQwNjJMMTYuMDkzOCA4LjVMMTEuNjg3NSA4LjEyNUwxMCA0LjA5Mzc1TDguMzEyNSA4LjEyNUwzLjkwNjI1IDguNUw3LjIzNDM4IDExLjQwNjJMNi4yNSAxNS42NzE5TDEwIDEzLjQyMTlaTTE5Ljk4NDQgNy4yMzQzOEwxNC41NDY5IDExLjk2ODhMMTYuMTg3NSAxOUwxMCAxNS4yNUwzLjgxMjUgMTlMNS40NTMxMiAxMS45Njg4TDAuMDE1NjI1IDcuMjM0MzhMNy4xODc1IDYuNjI1TDEwIDAuMDE1NjI1TDEyLjgxMjUgNi42MjVMMTkuOTg0NCA3LjIzNDM4WiIgZmlsbD0idXJsKCNwYWludDBfbGluZWFyKSIvPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyIiB4MT0iMTAiIHkxPSItMiIgeDI9IjEwIiB5Mj0iMjIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0JDOUNGRiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4QkE0RjkiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K");
 
 /***/ }),
 

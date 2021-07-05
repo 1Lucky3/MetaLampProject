@@ -1,0 +1,10 @@
+include ../../pay-button/pay-button-template
+include ../../click-me-button/click-me-button-template
+include ../navigation
+header.guest-header
+  .guest-header__logo
+  +nav
+  .guest-header__sign-in-button
+    span.guest-header__button войти
+  .guest-header__registration-button
+    +clickMeButtonStyle("click-buttons__button1","зарегистрироваться")

@@ -31,20 +31,20 @@
   height: 19px;
   margin: 2.5px 2px;
   float: right;
-  background-image: url("../../pictures/star_border.svg");
+  background-image: url("./star_border.svg");
   background-position: center;
 }
 
 .rate-button__style:not(:checked) > label:before {
-  background-image: url("../../pictures/star_border.svg");
+  background-image: url("./star_border.svg");
 }
 
 .rate-button__style > input:checked ~ label {
-  background-image: url("../../pictures/star.svg");
+  background-image: url("./star.svg");
 }
 
 .rate-button__style:not(:checked) > label:hover,
 .rate-button__style:not(:checked) > label:hover ~ label {
-  background-image: url("../../pictures/star.svg");
+  background-image: url("./star.svg");
 }
 /*# sourceMappingURL=rate-button.css.map */

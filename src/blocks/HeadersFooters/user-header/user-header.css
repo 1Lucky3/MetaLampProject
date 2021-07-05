@@ -1,0 +1,27 @@
+.user-header {
+  height: 70px;
+  width: 1440px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-header .guest-header__nav {
+  padding-left: 712px;
+}
+
+.guest-header__cherto4ka {
+  height: 30px;
+  width: 1px;
+  background: rgba(31, 32, 65, 0.1);
+  margin: 20px;
+}
+
+.guest-header__user-name {
+  padding-top: 26px;
+}
+/*# sourceMappingURL=user-header.css.map */

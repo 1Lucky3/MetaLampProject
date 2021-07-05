@@ -10,8 +10,13 @@ html(lang="en")
       header.header-icon
           .header-icon__icon
       .cards__wrapper
-        include ../../blocks/find-room-card/find-room
-        include ../../blocks/booking-card/booking-card
-        include ../../blocks/calendar/calendar
-        include ../../blocks/registration-card/registration-card
-        include ../../blocks/sign-in-card/sign-in-card
+        .cards__wrapper__blocks
+          include ../../blocks/find-room-card/find-room
+          include ../../blocks/registration-card/registration-card
+        .cards__wrapper__blocks1
+          include ../../blocks/booking-card/booking-card
+          include ../../blocks/sign-in-card/sign-in-card
+        .cards__wrapper__blocks2
+          include ../../blocks/calendar/calendar
+          include ../../blocks/room-card/room-card
+          include ../../blocks/room-card/room-card-type2

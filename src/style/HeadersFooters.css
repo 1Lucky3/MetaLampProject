@@ -1,0 +1,17 @@
+@import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\HeadersFooters\guest-header\guest-header.css);
+@import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\HeadersFooters\user-header\user-header.css);
+@import url(c:\Users\79512\Desktop\MetaLampProject\src\blocks\HeadersFooters\widget-copyright-footer\widget-copyright-footer.css);
+.HeadersFooters {
+  width: 1440px;
+  height: 1350px;
+  background: #F4F4F6;
+}
+
+.HeadersFooters__block {
+  padding-top: 62px;
+}
+
+.HeadersFooters__block1, .HeadersFooters__block2 {
+  padding-top: 40px;
+}
+/*# sourceMappingURL=HeadersFooters.css.map */

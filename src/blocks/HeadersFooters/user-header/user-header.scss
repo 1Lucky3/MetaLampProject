@@ -1,0 +1,18 @@
+@import '../header-footers-template.scss';
+
+
+.user-header{
+  @include  HeaderFooterblock(70px,1440px,0px 10px 20px rgba(31, 32, 65, 0.05));
+}
+.user-header .guest-header__nav{
+  padding-left: 712px;
+}
+.guest-header__cherto4ka{
+  height: 30px;
+  width: 1px;
+  background: rgba(31, 32, 65, 0.1);
+  margin: 20px;
+}
+.guest-header__user-name{
+  padding-top: 26px;
+}

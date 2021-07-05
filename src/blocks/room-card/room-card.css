@@ -1,0 +1,161 @@
+.room-card {
+  width: 270px;
+  height: 257px;
+  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border: none;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.room-card__picture {
+  height: 151px;
+  width: inherit;
+  background: url(./roompict.png);
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+}
+
+.room-card__left-expand, .room-card__right-expand {
+  height: 13px;
+  width: 8px;
+  position: absolute;
+  padding: 15.5px 18px;
+  top: 53px;
+}
+
+.room-card__left-expand {
+  content: url(./expand_more-left.svg);
+}
+
+.room-card__right-expand {
+  content: url(./expand_more-rigth.svg);
+  right: 0;
+}
+
+.room-card__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 41.25px;
+  height: 7.5px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.room-card__slider-btn, .room-card__slider-btn1 {
+  height: 5.5px;
+  width: 5px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.room-card__slider-btn1 {
+  -webkit-filter: drop-shadow(0px 5px 5px rgba(31, 32, 65, 0.3));
+          filter: drop-shadow(0px 5px 5px rgba(31, 32, 65, 0.3));
+}
+
+.room-card__slider-btn {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);
+          box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);
+}
+
+.room-card__designation {
+  height: 24px;
+  font-family: 'MontserratExtraBold';
+  padding: 20px 20px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.room-card__number-symbol {
+  color: #1F2041;
+  font-size: 14px;
+}
+
+.room-card__number {
+  color: #1F2041;
+  font-size: 18px;
+  height: 24px;
+  padding-left: 3px;
+  padding-right: 2px;
+}
+
+.room-card__lux {
+  color: #BC9CFF;
+  font-size: 14px;
+  height: 15px;
+  font-weight: 700;
+  font-family: 'MontserratRegular';
+}
+
+.room-card__price, .room-card__price-day {
+  color: rgba(31, 32, 65, 0.5);
+  font-size: 14px;
+}
+
+.room-card__price {
+  right: 74px;
+  position: absolute;
+}
+
+.room-card__price-day {
+  font-family: 'MontserratRegular';
+  right: 17px;
+  position: absolute;
+}
+
+.room-card__hr {
+  height: 1px;
+  width: 230px;
+  border: none;
+  background: rgba(31, 32, 65, 0.1);
+  margin: 10px 20px 0;
+}
+
+.room-card__rate {
+  padding: 8px 20px 0;
+  color: rgba(31, 32, 65, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.room-card__rate-number {
+  font-family: 'MontserratExtraBold';
+  position: absolute;
+  right: 94.5px;
+}
+
+.room-card__rate-comment {
+  font-family: 'MontserratRegular';
+  position: absolute;
+  right: 20px;
+}
+
+.pict1 {
+  background: url(./pic1.png);
+}
+/*# sourceMappingURL=room-card.css.map */
