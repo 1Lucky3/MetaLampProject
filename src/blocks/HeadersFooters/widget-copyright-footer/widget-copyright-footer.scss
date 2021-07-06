@@ -2,8 +2,86 @@
 
 .widget-copyright-footer__widget{
   @include HeaderFooterblock(372px,1440px,0px 1px 0px rgba(31, 32, 65, 0.1));
+  .guest-header__logo{
+    top: 100px
+  }
+}
+.widget-copyright__logo-info{
+  height: 72px;
+  width: 260px;
+  margin: 160px 0 0 140px;
+}
+.widget-copyright__nav{
+  margin: 104px 0 0 40px;
+  display: flex;
+  a{
+    text-decoration: none;
+    color: rgba(31, 32, 65, 0.5);
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .bold-designation{
+    padding: 0px;
+    font-size: 11.9px;
+  }
+  .subscription__field{
+    position: absolute;
+    right: 140px;
+    bottom: 120px;
+    .subscription__input{
+      width: 199px;
+    }
+  }
+}
+.widget-copyright__navigation{
+  width: 143px;
+  height: 168px;
+}
+.widget-copyright__about{
+  width: 108px;
+  height: 168px;
+  margin-left: 57px;
+}
+.widget-copyright__support{
+  width: 150px;
+  height: 130px;
+  margin-left: 92px;
+}
+.widget-copyright__subscription{
+  width: 260px;
+  height: 84px;
+  margin-left: 51px;
+  a{
+    height: 48px;
+  }
 }
 .widget-copyright-footer__copyright{
   @include HeaderFooterblock(70px,1440px,0px 10px 20px rgba(31, 32, 65, 0.05));
   margin-top: 1px;
+  .default-text-075{
+    padding: 26px 0 0 140px;
+  }
+}
+.widget-copyright-footer__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+  height: fit-content;
+  margin: 23px 0 0 676px;
+  a{
+    height: 24px;
+    width: 24px;
+  }
+  .twit{
+    content: url(./twit.svg);
+  }
+  .fsb{
+    content: url(./fsb.svg);
+  }
+  .inst{
+    content: url(./inst.svg);
+  }
 }

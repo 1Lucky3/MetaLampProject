@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,iBAAiB,CAAA;ECDf,MAAM,EDEoB,KAAK;ECD/B,KAAK,EDC2B,KAAK;ECArC,UAAU,EAAE,OAAO;EACnB,UAAU,EDD6B,GAAG,CAAC,IAAI,CAAC,IAAI,CAAC,sBAAsB;ECE3E,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;EDFd,cAAc,EAAE,MAAM;CAatB;;AAfD,AAGC,iBAHgB,CAGhB,mBAAmB,CAAA;EACjB,GAAG,EAAE,KAAK;EACV,IAAI,EAAE,KAAK;CACZ;;AANF,AAOC,iBAPgB,CAOhB,iBAAiB,CAAA;EACf,OAAO,EAAE,eAAe;EACxB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK;CACb;;AAXF,AAYC,iBAZgB,CAYhB,+BAA+B,CAAC;EAC9B,MAAM,EAAE,cAAc;CACvB",
+    "sources": [
+        "copyright-footer.scss",
+        "../header-footers-template.scss"
+    ],
+    "names": [],
+    "file": "copyright-footer.css"
+}

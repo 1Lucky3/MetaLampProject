@@ -1,0 +1,34 @@
+
+
+.room-details__pictures{
+  height: 485px;
+  display: flex;
+  flex-direction: row;
+}
+.room-details__pictures_big{
+  background: url(../pictures/room-datails-page/roomDetails3.jpg);
+  width: 981px;
+}
+.room-details__pictures-contain{
+  display: flex;
+  flex-direction: column;
+}
+.room-details__pict1{
+  background: url(../pictures/room-datails-page/roomDetails2.jpg);
+  width: 459px;
+  height: 243px;
+}
+.room-details__pict2{
+  background: url(../pictures/room-datails-page/roomDetails1.jpg);
+  width: 459px;
+  height: 242px;
+}
+.room-details__main{
+  position: relative;
+  height: 939px;
+  .booking-card{
+    top: 70px;
+    left: 920px;
+    position: absolute;
+  }
+}

@@ -1,0 +1,20 @@
+@import '../header-footers-template.scss';
+
+
+.copyright-footer{
+ @include HeaderFooterblock(367px,768px, 0px 10px 20px rgba(31, 32, 65, 0.05));
+ flex-direction: column;
+ .guest-header__logo{
+   top: 120px;
+   left: 331px;
+ }
+ .default-text-075{
+   padding: 180px 0 0 104px;
+   text-align: center;
+   width: 560px;
+ }
+ .widget-copyright-footer__icons {
+   margin: 25px 0 0 328px;
+ }
+}
+

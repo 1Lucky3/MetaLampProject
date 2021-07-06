@@ -1,0 +1,31 @@
+.copyright-footer {
+  height: 367px;
+  width: 768px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.copyright-footer .guest-header__logo {
+  top: 120px;
+  left: 331px;
+}
+
+.copyright-footer .default-text-075 {
+  padding: 180px 0 0 104px;
+  text-align: center;
+  width: 560px;
+}
+
+.copyright-footer .widget-copyright-footer__icons {
+  margin: 25px 0 0 328px;
+}
+/*# sourceMappingURL=copyright-footer.css.map */

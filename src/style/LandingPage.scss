@@ -1,0 +1,19 @@
+.landing-page__picture{
+  background: url(../pictures/landing-page/landingpicture.jpg);
+  height: 830px;
+  width: 1440px;
+  position: relative;
+  .find-room{
+    position: absolute;
+    top: 70px;
+    left: 140px;
+  }
+}
+.landing-page__picture-info{
+  width: 297px;
+  height: 48px;
+  text-align: right;
+  position: absolute;
+  bottom: 18px;
+  right: 140px;
+}

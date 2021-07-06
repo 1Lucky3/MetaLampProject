@@ -10,6 +10,83 @@
   display: flex;
 }
 
+.widget-copyright-footer__widget .guest-header__logo {
+  top: 100px;
+}
+
+.widget-copyright__logo-info {
+  height: 72px;
+  width: 260px;
+  margin: 160px 0 0 140px;
+}
+
+.widget-copyright__nav {
+  margin: 104px 0 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.widget-copyright__nav a {
+  text-decoration: none;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.widget-copyright__nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.widget-copyright__nav .bold-designation {
+  padding: 0px;
+  font-size: 11.9px;
+}
+
+.widget-copyright__nav .subscription__field {
+  position: absolute;
+  right: 140px;
+  bottom: 120px;
+}
+
+.widget-copyright__nav .subscription__field .subscription__input {
+  width: 199px;
+}
+
+.widget-copyright__navigation {
+  width: 143px;
+  height: 168px;
+}
+
+.widget-copyright__about {
+  width: 108px;
+  height: 168px;
+  margin-left: 57px;
+}
+
+.widget-copyright__support {
+  width: 150px;
+  height: 130px;
+  margin-left: 92px;
+}
+
+.widget-copyright__subscription {
+  width: 260px;
+  height: 84px;
+  margin-left: 51px;
+}
+
+.widget-copyright__subscription a {
+  height: 48px;
+}
+
 .widget-copyright-footer__copyright {
   height: 70px;
   width: 1440px;
@@ -21,5 +98,40 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 1px;
+}
+
+.widget-copyright-footer__copyright .default-text-075 {
+  padding: 26px 0 0 140px;
+}
+
+.widget-copyright-footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 110px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 23px 0 0 676px;
+}
+
+.widget-copyright-footer__icons a {
+  height: 24px;
+  width: 24px;
+}
+
+.widget-copyright-footer__icons .twit {
+  content: url(./twit.svg);
+}
+
+.widget-copyright-footer__icons .fsb {
+  content: url(./fsb.svg);
+}
+
+.widget-copyright-footer__icons .inst {
+  content: url(./inst.svg);
 }
 /*# sourceMappingURL=widget-copyright-footer.css.map */

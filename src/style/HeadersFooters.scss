@@ -1,6 +1,7 @@
 @import '../blocks/HeadersFooters/guest-header/guest-header.css';
 @import '../blocks/HeadersFooters/user-header/user-header.css';
 @import '../blocks/HeadersFooters/widget-copyright-footer/widget-copyright-footer.css';
+@import '../blocks/HeadersFooters/copyright-footer/copyright-footer.css';
 
 .HeadersFooters{
   width: 1440px;
@@ -12,4 +13,8 @@
 }
 .HeadersFooters__block1,.HeadersFooters__block2{
   padding-top: 40px;
+}
+.HeadersFooters__block3{
+  padding-top: 40px;
+  padding-left: 336px;
 }

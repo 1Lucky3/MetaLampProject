@@ -1,0 +1,18 @@
+.registration-page__picture {
+  background: url(../pictures/registration-page/registration-page.jpg);
+  height: 684px;
+  width: 1440px;
+  position: relative;
+}
+
+.registration-page__picture .registration-card {
+  position: absolute;
+  top: 19px;
+  left: 531px;
+}
+
+.registration-page__picture .click-buttons__form {
+  height: 44px;
+  width: 99px;
+}
+/*# sourceMappingURL=RegistrationPage.css.map */

@@ -23,7 +23,11 @@ module.exports = {
   entry: {
     'FormElements': './index.js',
     'Cards': './cards.js',
-    'HeadersFooters': './HeadersFooters.js'
+    'HeadersFooters': './HeadersFooters.js',
+    'LandingPage': './LandingPage.js',
+    'RegistrationPage': './RegistrationPage.js',
+    'SignInPage': './SignInPage.js',
+    'RoomDetailsPage': './RoomDetailsPage.js',
   },
   mode: 'development',
   devtool: 'source-map',
@@ -54,6 +58,26 @@ module.exports = {
       filename: 'HeadersFooters.html',
       template: './pug/pages/HeadersFooters.pug',
       chunks: ['HeadersFooters'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'LandingPage.html',
+      template: './pug/pages/LandingPage.pug',
+      chunks: ['LandingPage'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'RegistrationPage.html',
+      template: './pug/pages/RegistrationPage.pug',
+      chunks: ['RegistrationPage'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'SignInPage.html',
+      template: './pug/pages/SignInPage.pug',
+      chunks: ['SignInPage'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'RoomDetailsPage.html',
+      template: './pug/pages/RoomDetailsPage.pug',
+      chunks: ['RoomDetailsPage'],
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',

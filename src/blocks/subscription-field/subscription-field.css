@@ -1,25 +1,46 @@
-.subscription-field {
-  width: 267px;
-  height: 44px;
-  border: 1px solid rgba(31, 32, 65, 0.25);
-  border-radius: 4px;
-  margin: 0;
-  padding: 0;
-}
-
-.subscription-field__text {
-  padding-left: 15px;
-  padding-top: 12px;
+.subscription__field {
   position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.subscription-field__exp {
+.subscription__field::before {
   position: absolute;
-  width: 18px;
   height: 18px;
-  padding: 13px 13px;
-  top: 0px;
-  right: 0px;
-  content: url("./arrow_forward-color.svg");
+  width: 18px;
+  padding: 13px;
+  content: url(./arrow_forward-color.svg);
+  right: 0;
+}
+
+.subscription__input {
+  height: 42px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  width: 208px;
+  border-radius: 4px;
+  padding: 0 44px 0 15px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.subscription__input:focus {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  outline: none;
+}
+
+.subscription__input::-webkit-input-placeholder {
+  color: rgba(31, 32, 65, 0.251);
+}
+
+.subscription__input:-ms-input-placeholder {
+  color: rgba(31, 32, 65, 0.251);
+}
+
+.subscription__input::-ms-input-placeholder {
+  color: rgba(31, 32, 65, 0.251);
+}
+
+.subscription__input::placeholder {
+  color: rgba(31, 32, 65, 0.251);
 }
 /*# sourceMappingURL=subscription-field.css.map */
