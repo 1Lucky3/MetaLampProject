@@ -9,7 +9,7 @@
 .like-button__style {
   color: rgba(31, 32, 65, 0.25);
   font-size: 10px;
-  font-family: $fontfam;
+  font-family: 'MontserratRegular';
 }
 
 .like-button__padding {
@@ -37,7 +37,7 @@
   left: 4px;
   height: 8px;
   width: 10px;
-  background: url('../../pictures/favorite_border.svg');
+  background: url('./favorite_border.svg');
 }
 
 .like-button__checkmark1 {
@@ -52,5 +52,5 @@
 }
 
 .like-button__checkbox:checked+.like-button__checkmark:before {
-  background: url('../../pictures/favorite-liked.svg');
+  background: url('./favorite-liked.svg');
 }

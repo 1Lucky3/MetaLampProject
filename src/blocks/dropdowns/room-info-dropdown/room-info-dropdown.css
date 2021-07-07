@@ -1,18 +1,3 @@
-.room-info {
-  padding-top: 20px;
-}
-
-.room-info__dropdown {
-  width: 266px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .caption__description {
   text-transform: lowercase;
   font-weight: 400;
@@ -45,7 +30,7 @@
   top: 0px;
   right: 0px;
   position: absolute;
-  content: url("../../blocks/guest-dropdown/expand_more.svg");
+  content: url("./expand_more.svg");
 }
 
 .selected-option ul {
@@ -149,4 +134,4 @@
 .dropdown__open__amount-more {
   right: 7px;
 }
-/*# sourceMappingURL=dropdown.css.map */
+/*# sourceMappingURL=room-info-dropdown.css.map */

@@ -1,13 +1,5 @@
 $fontfam: 'Montserrat';
 
-.room-info{
-  padding-top: 20px;
-}
-.room-info__dropdown {
-  width: 266px;
-  display: flex;
-  flex-direction: column;
-}
 .caption__description{
   text-transform: lowercase;
   font-weight: 400;
@@ -22,7 +14,6 @@ $fontfam: 'Montserrat';
   padding: 0;
   display: inline-block;
   position: relative;
-
 }
 .selected-option {
   list-style-type: none;
@@ -39,7 +30,7 @@ $fontfam: 'Montserrat';
   top: 0px;
   right: 0px;
   position: absolute;
-  content: url('../../blocks/guest-dropdown/expand_more.svg');
+  content: url('./expand_more.svg');
 }
 .selected-option ul{
   opacity: 0;

@@ -1,0 +1,14 @@
+mixin comment(imgClass,userName,lastSeen,text,text1,text2)
+  include ../buttons/like-button/like-button-template
+  .default-text-075.comment-block__wrapper
+    .comment-block__user
+      span(class=imgClass)
+      .comment-block__user-info
+        span.comment-block__user-name #{userName}
+        span.comment-block__user-lastseen #{lastSeen}
+    .comment-block__comment
+      .comment-block__likes
+        +likeButton(12)
+      .comment-block__comment-text #{text} #[br]
+        |#{text1}
+        |#{text2}

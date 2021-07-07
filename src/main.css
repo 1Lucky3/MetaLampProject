@@ -6,13 +6,6 @@
 @import './style/upper-section/upper-section__rate-button.css';
 @import './style/upper-section/upper-section__buttons-slider.css';
 @import './style/secondary-section/secondary-section.css';
-@import './style/secondary-section/dropdown.css';
 @import './style/secondary-section/dropdown-expanded.css';
-@import './style/secondary-section/checkbox-list.css';
-@import './style/secondary-section/checkbox-list-not-expanded.css';
 @import './blocks/guest-dropdown/guest-dropdown.scss';
-@import './style/secondary-section/rich-checkbox.css';
-@import './style/secondary-section/bullet-list.css';
-@import './style/secondary-section/room-details.css';
-@import './style/secondary-section/comment-block.css';
 @import './style/cards.scss';

@@ -32,7 +32,7 @@ html(lang="en")
         div.toggle
           include ../../blocks/special-offer-toggle/special-offer-toggle
         div.like-button
-          include ../layouts/layouts-buttons/like-button
+          include ../../blocks/buttons/like-button/like-button
         include ../../blocks/rate-buttons/rate-button
       div.upper-section__buttons-slider
         div.range-slider
@@ -46,18 +46,29 @@ html(lang="en")
           include ../../blocks/buttons/pagination/pagination
     section.secondary-section
       div.secondary-section__left-dropdowns
-        include ../layouts/layouts-dropdowns/room-info-dropdown-block
-        include ../layouts/layouts-dropdowns/conveniences-checkbox-dropdown-block
+        div.room-info
+          div.room-info__dropdown
+            .head
+              span.bold-designation.head__text  dropdown
+              span.normal-designation.caption__default default
+            include ../../blocks/dropdowns/room-info-dropdown/room-info-dropdown
+        div.checkbox-list
+          include ../../blocks/dropdowns/conveniences-checkbox-dropdown/conveniences-checkbox-dropdown
       div.secondary-section__middle
         div.secondary-section__middle-dropdowns
-          include ../layouts/layouts-dropdowns/guest-dropdown-block
+          div.guest-dropdown__container1
+            div.head 
+              span.bold-designation.head__text dropdown
+            include ../../blocks/guest-dropdown/guests-dropdown
         div.secondary-section__middle-others
           div.rich-checkbox__container
-            include ../layouts/layouts-buttons/rich-checkbox
+            include ../../blocks/buttons/rich-checkbox/rich-checkbox
           div.bullet-list__container
-            include ../layouts/layouts-dropdowns/bullet-list
+            div.head 
+              span.bold-designation.head__text bullet list
+            include ../../blocks/bullet-list/bullet-list
     section.footer-section
       .footer-section__left-container
-        include ../layouts/layouts-dropdowns/room-details
+        include ../../blocks/room-details/room-details
       .footer-section__right-container
-        include ../layouts/comment-block
+        include ../../blocks/comment-block/comment-block

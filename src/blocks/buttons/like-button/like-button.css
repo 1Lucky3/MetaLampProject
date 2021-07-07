@@ -1,0 +1,64 @@
+.like-button__inputs {
+  padding-top: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.like-button__style {
+  color: rgba(31, 32, 65, 0.25);
+  font-size: 10px;
+  font-family: 'MontserratRegular';
+}
+
+.like-button__padding {
+  padding-left: 10px;
+}
+
+.like-button__checkbox {
+  display: none;
+  position: absolute;
+}
+
+.like-button__checkmark {
+  display: block;
+  width: 39.72px;
+  height: 20px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+  position: relative;
+}
+
+.like-button__checkmark::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  height: 8px;
+  width: 10px;
+  background: url("./favorite_border.svg");
+}
+
+.like-button__checkmark1 {
+  position: absolute;
+  padding-left: 22px;
+  top: 4px;
+}
+
+.like-button__checkbox:checked + .like-button__checkmark {
+  border: 1px solid #BC9CFF;
+  color: #BC9CFF;
+}
+
+.like-button__checkbox:checked + .like-button__checkmark:before {
+  background: url("./favorite-liked.svg");
+}
+/*# sourceMappingURL=like-button.css.map */

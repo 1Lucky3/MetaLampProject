@@ -62,4 +62,19 @@
 .footer-section__right-container {
   padding-left: 156px;
 }
+
+.room-info {
+  padding-top: 20px;
+}
+
+.room-info__dropdown {
+  width: 266px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=secondary-section.css.map */

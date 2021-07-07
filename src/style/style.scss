@@ -3,6 +3,12 @@
 @import url(../blocks/filter-date-dropdown/filter-date-dropdown.scss);
 @import url(./upper-section/upper-section__fields.scss);
 @import url(../blocks/subscription-field/subscription-field.css);
+@import url(../blocks/buttons/rich-checkbox/rich-checkbox.scss);
+@import url(../blocks/comment-block/comment-block.scss);
+@import url(../blocks/bullet-list/bullet-list.scss);
+@import url(../blocks/room-details/room-details.css);
+@import url(../blocks/dropdowns/conveniences-checkbox-dropdown/checkbox-list.scss);
+@import url(../blocks/dropdowns/room-info-dropdown/room-info-dropdown.css);
 
 body {
   margin: 0;
@@ -49,4 +55,9 @@ body {
   padding-left: 140px;
   display: flex;
   flex-direction: row;
+}
+
+
+.checkbox-list{
+  padding-top: 173px;
 }

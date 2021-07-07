@@ -25,7 +25,7 @@
   width: 40px;
   background-position: center;
   margin: 4px;
-  background-image: url(../../pictures/insert_emoticon.svg);
+  background-image: url(./insert_emoticon.svg);
 }
 
 .room-details__icon-row2 {
@@ -33,7 +33,15 @@
   width: 40px;
   background-position: center;
   margin: 4px;
-  background-image: url(../../pictures/location_city.svg);
+  background-image: url(./location_city.svg);
+}
+
+.room-details__icon-row3 {
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  margin: 4px;
+  background-image: url(./yut.svg);
 }
 
 .room-details__row-info {

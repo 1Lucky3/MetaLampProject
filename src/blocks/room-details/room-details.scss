@@ -17,17 +17,19 @@
   width: 291px;
 }
 .room-details__icon-row1{
-  @include icon-style(url(../../pictures/insert_emoticon.svg));
+  @include icon-style(url(./insert_emoticon.svg));
 }
 .room-details__icon-row2{
-  @include icon-style(url(../../pictures/location_city.svg));
+  @include icon-style(url(./location_city.svg));
+}
+.room-details__icon-row3{
+  @include icon-style(url(./yut.svg));
 }
 .room-details__row-info{
   display: flex;
   flex-direction: column;
   padding-left: 10px;
   justify-content: space-between;
-  
 }
 .room-details__text{
   font-weight: 700;
