@@ -21,13 +21,14 @@ const PAGES = fs.readdirSync(PAGES_DIR).filter(fileName => fileName.endsWith('.p
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: {
-    'FormElements': './index.js',
+    'FormElements': './FormElements.js',
     'Cards': './cards.js',
     'HeadersFooters': './HeadersFooters.js',
     'LandingPage': './LandingPage.js',
     'RegistrationPage': './RegistrationPage.js',
     'SignInPage': './SignInPage.js',
     'RoomDetailsPage': './RoomDetailsPage.js',
+    'SearchFilterPage': './SearchFilterPage.js',
   },
   mode: 'development',
   devtool: 'source-map',
@@ -79,6 +80,11 @@ module.exports = {
       template: './pug/pages/RoomDetailsPage.pug',
       chunks: ['RoomDetailsPage'],
     }),
+    new HtmlWebpackPlugin({
+      filename: 'SearchFilterPage.html',
+      template: './pug/pages/SearchFilterPage.pug',
+      chunks: ['SearchFilterPage'],
+    }),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
@@ -106,7 +112,10 @@ module.exports = {
       },
       {
         test: /\.pug$/,
-        loader: 'pug-loader'
+        loader: 'pug-loader',
+        options: {
+          pretty: true,
+        },
       },
       /** SCSS/SAAS */
       {

@@ -183,5 +183,24 @@
   }
 }
 .room-details__rules{
-
+  display: flex;
+  padding-top: 30px;
+  .bold-designation {
+    text-transform: none;
+    font-size: 19px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+.room-details__left-contain{
+  width: 291px;
+  height: 160px;
+}
+.room-details__right-contain{
+  width: 341px;
+  height: 140px;
+  padding-left: 70px;
+  p{
+    margin: 0;
+  }
 }

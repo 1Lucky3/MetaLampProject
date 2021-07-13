@@ -41,7 +41,14 @@ html(lang="en")
           +comment("comment-block__user-img","Мурад Сарафанов","5 дней назад","Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий.","И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто","никто не жаловался из соседей.")
           +comment("comment-block__user1-img","Патрисия Стёклышкова","Неделю назад","Обслуживание на высоте! Всё аккуратно, чисто. Завтраки в номер советую заказать,","каждый день новое блюдо и десерт как комплимент",text2)
         .room-details__rules
-          include ../../blocks/bullet-list/bullet-list
+          .room-details__left-contain
+            .head 
+              span.bold-designation.head__text Правила
+            include ../../blocks/bullet-list/bullet-list
+          .room-details__right-contain.default-text-075
+            .head 
+              span.bold-designation.head__text Отмена  
+            p.room-details__rules_text Бесплатная отмена в течение 48 ч. После этого при отмене не позднее чем за 5 дн. до прибытия вы получите полный возврат за вычетом сбора за услуги.
       .room-details__card-contain 
         include ../../blocks/booking-card/booking-card  
     include ../../blocks/HeadersFooters/widget-copyright-footer/widget-copyright-footer
